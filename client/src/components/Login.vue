@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-success is-fullheight">
+  <section class="hero is-success is-fullheight fons-mataro">
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
@@ -34,4 +34,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.fons-mataro{
+  /* background: url("~./assets/mataro.png"); */
+}
 </style>
