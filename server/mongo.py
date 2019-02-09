@@ -12,6 +12,8 @@ def addEvent(event):
     x = mycol.insert_one(event)
     return ''
 
+#prova
+
 def getEvents():
     # events = [
     #     {
