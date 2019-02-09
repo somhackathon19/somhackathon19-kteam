@@ -71,6 +71,7 @@
                     </p>
                   </div>
                 </div>
+                <hr>
                 <div class="columns">
                   <div class="column is-mobile is-pulled-left">
                     <div class="field">

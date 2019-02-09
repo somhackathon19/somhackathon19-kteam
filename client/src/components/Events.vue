@@ -10,7 +10,7 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title">Events
-          <router-link to="newEvent">
+          <router-link to="/event/new">
             <a class="button is-rounded is-primary">
               <span class="icon is-small">
                 <i class="fas fa-plus"></i>
@@ -29,7 +29,6 @@
         </div>
       </div>
     </div>
-    <pre>{{events}}</pre>
   </section>
 </template>
 
@@ -45,8 +44,7 @@ export default {
     EventDetail
   },
   data() {
-    return {
-    };
+    return {};
   },
   computed: {
     events () {
