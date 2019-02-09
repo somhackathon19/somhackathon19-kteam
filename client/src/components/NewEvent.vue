@@ -103,22 +103,22 @@
                       </div>
                     </div>
                   </div>
-                  
                 </div>
-                <div class="columns is-mobile level-right">
-                  <div class="column is-2">
+                <hr>
+                <div class="columns is-mobile ">
+                  <div class="column is-is-pulled-left">
                     <div class="field">
-                      <button class="button is-success" id="create" v-on:click="crearEvent()">Crear</button>
+                      <button class="button is-fullwidth is-success" id="create" v-on:click="crearEvent()">Crear</button>
                     </div>
                   </div>
-                  <div class="column is-2">
+                  <div class="column is-pulled-left">
                     <div class="field">
-                      <button class="button is-success" id="save" v-on:click="editarEvent()">Editar</button>
+                      <button class="button is-fullwidth is-success" id="save" v-on:click="editarEvent()">Editar</button>
                     </div>
                   </div>
-                  <div class="column is-2">
+                  <div class="column is-pulled-right">
                     <div class="field">
-                      <button class="button is-danger" id="delete" v-on:click="borrarEvent()">Borrar</button>
+                      <button class="button is-fullwidth is-danger " id="delete" v-on:click="borrarEvent()">Borrar</button>
                     </div>
                   </div>
                 </div>
@@ -161,8 +161,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 .fons-mataro {
-  background: url("../assets/mataro.png");
+  background: url("../assets/mataro_transparent.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

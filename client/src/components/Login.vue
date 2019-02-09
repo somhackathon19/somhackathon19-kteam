@@ -3,7 +3,8 @@
     <div class="hero-body">
       <div class="container">
         <div class="columns is-mobile">
-          <div class="column is-half is-offset-one-quarter">
+          <div class="column is-half is-offset-one-quarter has-text-centered">
+            <img src="../assets/logo_nostre.png" class="logo_nostre">
             <div class="card">
               <header class="card-header text-center">
                 <h1 class="title has-text-black">LOGIN</h1>
@@ -13,7 +14,7 @@
                   {{ error }}
                 </div>
                 <div class="field">
-                  <label class="label">Nom</label>
+                  <label class="label has-text-left">Nom</label>
                   <input class="input" v-model="nom" v-on:keyup.13="doLogin" type="text" placeholder="Introdueix el teu nom">
                 </div>
                 <div class="field">
@@ -54,8 +55,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#button{
+  background-color:#002f6c; 
+}
+
+.logo_nostre{
+  width: 300px;
+  height: 200px;
+}
 .fons-mataro {
-  background: url("../assets/mataro.png");
+  background: url("../assets/foto_portada.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
