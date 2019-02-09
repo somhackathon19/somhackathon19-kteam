@@ -13,84 +13,55 @@
                   <img src="../assets/esports.png">
                 </div>
                 <div class="field">
-                  <label class="label">Descripció</label>
-                  <div class="control">
-                    <textarea class="textarea" readonly> Hola amics, m'agradaria montar un partidet de fútbol en el camp municipal de mataró, però ens falten alguns jugados. Us agradaria apuntar-vos?{{ event }} </textarea>
-                  </div>
+                  <label class="label" style="font-size:25px">Descripció</label>
+                  <p>
+                    Hola amics, m'agradaria montar un partidet de fútbol en el camp municipal de
+                    mataró, però ens falten alguns jugados. Us agradaria apuntar-vos? {{ event }}
+                  </p>
                 </div>
+                <!-- <div class="field">
+                  <label class="label" style="font-size:20px">Observacions</label>
+                  <p>{{ event }}</p>
+                </div>-->
                 <div class="field">
-                  <label class="label">Observacions</label>
-                  <div class="control">
-                    <input class="input" type="text" v-bind:value="event" readonly>
-                  </div>
+                  <label class="label" style="font-size:25px">Informació sobre l'esdeveniment</label>
                 </div>
                 <div class="columns is-mobile is-multiline">
-                  <div class="column is-4">
-                    <div class="field">
-                      <label class="label">Número participants</label>
-                      <input class="input" type="text" v-bind:value="event+'/'+event" readonly>
-                    </div>
-                  </div>
-                  <div class="column is-8">
-                    <label class="label">Localització</label>
-                    <input class="input" type="text" placeholder="Localització">
-                  </div>
-                  <div class="column is-4">
-                    <b-field label="Escull un dia">
-                      <b-datepicker
-                        placeholder="Selecciona dia..."
-                        icon="calendar-today"
-                        position="is-top-right"
-                      ></b-datepicker>
-                    </b-field>
-                  </div>
-                  <div class="column is-4">
-                    <b-field label="Hora inici">
-                      <b-timepicker placeholder="Selecciona hora inici" icon="clock" editable></b-timepicker>
-                    </b-field>
-                  </div>
-                  <div class="column is-4">
-                    <b-field label="Hora fi">
-                      <b-timepicker placeholder="Selecciona hora fi" icon="clock" editable></b-timepicker>
-                    </b-field>
-                  </div>
-                  <div class="column is-3">
-                    <div class="field">
-                      <label class="label">Àmbit</label>
-                      <div class="control">
-                        <div class="select">
-                          <select>
-                            <option>Esports</option>
-                            <option>Cultural</option>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="column is-3">
-                    <div class="field">
-                      <label class="label">Tipus</label>
-                      <div class="control">
-                        <div class="select">
-                          <select>
-                            <option>Teatre</option>
-                            <option>Musical</option>
-                            <option>Exposició</option>
-                            <option>Taller</option>
-                            <option>Concurs</option>
-                            <option>Altres</option>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="column is-6">
+                    <p>
+                      <b>Dia:</b>
+                      {{ event }}
+                    </p>
                   </div>
                   <div class="column is-6">
-                    <div class="field">
-                      <label class="label">Altres</label>
-                      <div class="control">
-                        <input class="input" type="text" placeholder="Altres activitats">
-                      </div>
-                    </div>
+                    <p>
+                      <b>Durada:</b>
+                      {{ event }} - {{ event }}
+                    </p>
+                  </div>
+                </div>
+                <div class="columns">
+                  <div class="column">
+                    <p>
+                      <b>Localització:</b>
+                      {{ event }}
+                    </p>
+                  </div>
+                </div>
+                <div class="columns">
+                  <div class="column">
+                    <p>
+                      <b>Número de participants:</b>
+                      {{ event }} / {{ event }}
+                    </p>
+                  </div>
+                </div>
+                <div class="columns">
+                  <div class="column">
+                    <p>
+                      <b>Àmbits:</b>
+                      {{ event }} ({{ event }},{{ event }})
+                    </p>
                   </div>
                 </div>
                 <div class="columns is-mobile level-right">
@@ -138,7 +109,9 @@ export default {
 .title {
   margin: 5px;
 }
-
+p {
+  font-size: 20px;
+}
 .card {
   margin-top: 10px;
   border-radius: 13px 13px 13px 13px;
