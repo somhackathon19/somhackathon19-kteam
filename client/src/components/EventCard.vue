@@ -1,10 +1,10 @@
 <template>
   <div class="card event-bg">
     <div class="card-image">
-      <figure class="image" v-if="event.ambit == 'Esportiu'">
+      <figure class="image" v-if="event.ambit == 'Esports'">
         <img src="../assets/esports.png">
       </figure>
-      <figure class="image" v-if="event.ambit != 'Esportiu'">
+      <figure class="image" v-if="event.ambit != 'Esports'">
         <img src="../assets/cultura.png" >
       </figure>
     </div>
@@ -13,8 +13,8 @@
       <p class="subtitle has-text-black">{{ event.descripcio }}</p>
     </div>
     <footer class="card-footer has-background-white">
-      <p class="card-footer-item">{{ event.data }}</p>
-      <p class="card-footer-item">{{ event.horaIni }}</p>
+      <p class="card-footer-item">{{ event.dia.substring(0, 10) }}</p>
+      <p class="card-footer-item">{{ event.horaIni.substring(11, 16) }}</p>
     </footer>
   </div>
 </template>
@@ -25,7 +25,6 @@ export default {
   props: ["event"],
   data() {
     return {
-      msg: "Welcome to Your Vue.js App"
     };
   }
 };
