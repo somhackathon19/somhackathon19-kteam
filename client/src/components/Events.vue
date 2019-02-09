@@ -9,8 +9,16 @@
     </div>
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title">Events</h1>
-        <h2 class="subtitle">crear events <router-link to="newEvent">CREAR</router-link> </h2>
+        <h1 class="title">Events
+          <router-link to="newEvent">
+            <a class="button is-rounded is-primary">
+              <span class="icon is-small">
+                <i class="fas fa-plus"></i>
+              </span>
+            </a>
+          </router-link>
+        </h1>
+        <h2 class="subtitle">crear events</h2>
         {{ $store.state.count }}
         <div class="columns is-multiline is-mobile">
           <div class="column is-4" v-for="event in events" v-bind:key="event['_id']['$oid']">
