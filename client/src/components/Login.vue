@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-success is-fullheight fons-mataro">
+  <section class="hero is-fullheight fons-mataro">
     <div class="hero-body">
       <div class="container">
         <div class="columns is-mobile">
