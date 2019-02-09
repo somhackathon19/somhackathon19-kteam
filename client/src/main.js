@@ -7,7 +7,7 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-var socket = io.connect('localhost:5000');
+var socket = io.connect('http://178.62.238.205:80');
 socket.on('test', function(data){
   console.log(data)
 });
