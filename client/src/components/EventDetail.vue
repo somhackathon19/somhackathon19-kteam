@@ -114,7 +114,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .fons-mataro {
-  background: url("../assets/mataro.png");
+  background: url("../assets/mataro_transparent.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -1,24 +1,24 @@
 <template>
-  <section class="hero is-success is-fullheight">
+  <section class="hero is-fullheight">
     <div class="hero-head1">
       <header class="navbar bg-nav is-transparent">
         <a class="navbar-item">
-          <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+          <img src="../assets/logo_nostre.png" class="logo_nostre">
         </a>
       </header>
     </div>
-    <div class="hero-body">
+    <div class="hero-body fons-mataro">
       <div class="container has-text-centered">
-        <h1 class="title">Events
+        <h1 class="title has-text-white">Esdeveniments
           <router-link to="newEvent">
-            <a class="button is-rounded is-primary">
+            <a class="button is-rounded crear-event">
               <span class="icon is-small">
                 <i class="fas fa-plus"></i>
               </span>
             </a>
           </router-link>
         </h1>
-        <h2 class="subtitle">crear events</h2>
+        <h2 class="subtitle has-text-white">crear esdeveniment</h2>
         {{ $store.state.count }}
         <div class="columns is-multiline is-mobile">
           <div class="column is-4" v-for="event in events" v-bind:key="event['_id']['$oid']">
@@ -58,6 +58,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.crear-event{
+  color: white;
+  background-color:#002f6c;
+}
+.logo_nostre{
+  width: 85px;
+  height: 100%;
+}
+.fons-mataro {
+  background: url("../assets/mataro_transparent.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .navbar {
   display: flex;
   justify-content: center;
