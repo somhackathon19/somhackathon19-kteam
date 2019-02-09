@@ -8,26 +8,28 @@ mydb = myclient["veni"]
 mycol = mydb["events"]
 
 def addEvent(event):
-    event = { "name": "John", "address": "Highway 37" }
-    x = mycol.insert_one(event)
-    return ''
+    res = mycol.insert_one(event)
+    # if res.inserted_id is not None:
+    #     return jsonify('{ "success": "1" }')
+    # else:
+    #     return jsonify('{ "success": "0" }')
 
-#prova
 
 def getEvents():
-    # events = [
-    #     {
-    #         "id": 1,
-    #         "titol": "bon dia",
-    #         "descripcio": "hola bon dia"
-    #     }
-    # ]
     events = []
-    for x in mycol.find({ 'id': 2 }):
+    for x in mycol.find({}):
         events.append(dumps(x))
     return jsonify(events)
 
 
 def getEvent(id):
     event = mycol.find({ 'id': id })
-    return jsonify(events)
+    return jsonify(event)
+
+
+def removeEvent(id):
+    res = mycol.delete_one({ 'id': id })
+    if res.deleted_count > 0:
+        return jsonify('{ "success": 1 }')
+    else:
+        return jsonify('{ "success": 0 }')

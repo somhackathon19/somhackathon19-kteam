@@ -9,31 +9,31 @@
                 <div class="field">
                   <label class="label">Títol</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="Títol de l'activitat">
+                    <input class="input" type="text" placeholder="Títol de l'activitat" v-model="event.titol">
                   </div>
                 </div>
                 <div class="field">
                   <label class="label">Descripció</label>
                   <div class="control">
-                    <textarea class="textarea" placeholder="Descripció de l'activitat"></textarea>
+                    <textarea class="textarea" placeholder="Descripció de l'activitat" v-model="event.descripcio"></textarea>
                   </div>
                 </div>
                 <div class="field">
                   <label class="label">Observacions</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="Observacions (opcional)">
+                    <input class="input" type="text" placeholder="Observacions (opcional)" v-model="event.observacions">
                   </div>
                 </div>
                 <div class="columns is-mobile is-multiline">
                   <div class="column is-4">
                     <div class="field">
                       <label class="label">Número participants</label>
-                      <input class="input" type="number" placeholder="Nº Participants">
+                      <input class="input" type="number" placeholder="Nº Participants" v-model="event.numParticipants">
                     </div>
                   </div>
                   <div class="column is-8">
                     <label class="label">Localització</label>
-                    <input class="input" type="text" placeholder="Localització">
+                    <input class="input" type="text" placeholder="Localització" v-model="event.localitzacio">
                   </div>
                   <div class="column is-4">
                     <b-field label="Escull un dia">
@@ -59,7 +59,7 @@
                       <label class="label">Àmbit</label>
                       <div class="control">
                         <div class="select">
-                          <select>
+                          <select v-model="event.ambit">
                             <option>Esports</option>
                             <option>Cultural</option>
                           </select>
@@ -72,7 +72,7 @@
                       <label class="label">Tipus</label>
                       <div class="control">
                         <div class="select">
-                          <select>
+                          <select v-model="event.tipus">
                             <option>Teatre</option>
                             <option>Musical</option>
                             <option>Exposició</option>
@@ -88,7 +88,7 @@
                     <div class="field">
                       <label class="label">Altres</label>
                       <div class="control">
-                        <input class="input" type="text" placeholder="Altres activitats">
+                        <input class="input" type="text" placeholder="Altres activitats" v-model="event.altres">
                       </div>
                     </div>
                   </div>
@@ -97,17 +97,17 @@
                 <div class="columns is-mobile level-right">
                   <div class="column is-2">
                     <div class="field">
-                      <button class="button is-success" id="create" v-on:click>Create</button>
+                      <button class="button is-success" id="create" v-on:click="crearEvent()">Crear</button>
                     </div>
                   </div>
                   <div class="column is-2">
                     <div class="field">
-                      <button class="button is-success" id="save" v-on:click>Save</button>
+                      <button class="button is-success" id="save" v-on:click="editarEvent()">Editar</button>
                     </div>
                   </div>
                   <div class="column is-2">
                     <div class="field">
-                      <button class="button is-danger" id="delete" v-on:click>Delete</button>
+                      <button class="button is-danger" id="delete" v-on:click="borrarEvent()">Borrar</button>
                     </div>
                   </div>
                 </div>
@@ -121,11 +121,27 @@
 </template>
 
 <script>
+import io from 'socket.io-client';
+import axios from 'axios'
 export default {
   name: "NewEvent",
-  props: ["titol", "descripcio"],
+  props: ["id"],
   data() {
-    return {};
+    return {
+      event: {},
+      socket : io('localhost:5000')
+    };
+  },
+  methods: {
+    crearEvent: function() {
+      this.socket.emit('addEvent', this.event);
+    },
+    editarEvent: function() {
+      this.socket.emit('editEvent', { 'id': id, 'event': this.event });
+    },
+    borrarEvent: function() {
+      this.socket.emit('deleteEvent', { 'id': id });
+    }
   }
 };
 </script>

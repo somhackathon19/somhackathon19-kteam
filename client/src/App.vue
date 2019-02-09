@@ -12,13 +12,13 @@ import axios from 'axios'
 export default {
   name: 'App',
   created() {
-    axios
-    .get('http://localhost:5000/api/events')
-    .then((response) => {
-      if (response.status === 200) {
-        store.commit('setEvents', response.data)  
-      }
-    })
+    // axios
+    // .get('http://localhost:5000/api/events')
+    // .then((response) => {
+    //   if (response.status === 200) {
+    //     store.commit('setEvents', response.data)  
+    //   }
+    // })
   }
 }
 </script>
