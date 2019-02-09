@@ -55,14 +55,36 @@
                       </div>
                     </div>
                   </div>
-                  <div class="column is-5">
-                    <label class="label">Altres</label>
-                    <div class="control">
-                      <input class="input" type="text" placeholder="Altres activitats">
+                  <div class="column is-6">
+                    <div class="field">
+                      <label class="label">Altres</label>
+                      <div class="control">
+                        <input class="input" type="text" placeholder="Altres activitats">
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="columns is-mobile level-right" >
+                <div class="columns is-mobile">
+                  <div class="column is-3">
+                    <div class="field">
+                      <label class="label">Número participants</label>
+                      <input class="input" type="text">
+                    </div>
+                  </div>
+                  <div class="column is-2">
+                    <div class="field">
+                      <label class="label">Hora inici</label>
+                      <input type="time">
+                    </div>
+                  </div>
+                   <div class="column is-2">
+                    <div class="field">
+                      <label class="label">Hora fi</label>
+                      <input type="time">
+                    </div>
+                  </div>
+                </div>
+                <div class="columns is-mobile level-right">
                   <div class="column is-2">
                     <div class="field">
                       <button class="button is-success" id="create" v-on:click="doLogin">Create</button>
@@ -94,7 +116,8 @@ export default {
   props: ["titol", "descripcio"],
   data() {
     return {
-      msg: "Welcome to Your Vue.js App"
+      msg: "Welcome to Your Vue.js App",
+      time: new Date()
     };
   }
 };
