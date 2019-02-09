@@ -1,10 +1,15 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import io from 'socket.io-client';
+import FullCalendar from 'vue-full-calendar'
+import "fullcalendar/dist/fullcalendar.min.css";
 
+Vue.use(FullCalendar);
 Vue.use(Vuex)
 
 const state = {
   nom: '',
+  socket : io('localhost:5000'),
   events: [
     // {
     //   "id": 1,

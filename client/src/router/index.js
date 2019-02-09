@@ -4,6 +4,7 @@ import Login from '@/components/Login'
 import Events from '@/components/Events'
 import EventDetail from '@/components/EventDetail'
 import NewEvent from '@/components/NewEvent'
+import Calendari from '@/components/Calendari'
 
 Vue.use(Router)
 
@@ -21,14 +22,19 @@ export default new Router({
       component: Events
     },
     {
+      path: '/event/new',
+      name: 'New Event',
+      component: NewEvent
+    },
+    {
       path: '/event/:id',
       name: 'Event Detail',
       component: EventDetail
     },
     {
-      path: '/newEvent',
-      name: 'New Event',
-      component: NewEvent
+      path: '/calendari',
+      name: 'Calendari',
+      component: Calendari
     }
   ]
 })

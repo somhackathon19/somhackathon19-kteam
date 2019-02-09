@@ -23,6 +23,7 @@ def apiGetEvent(event):
 def apiAddEvent(event):
     print('new event: ' + str(event))
     addEvent(event)
+    emit('sendEvents', { 'data': getEvents() }, broadcast=True, namespace='/')
 
 @socketio.on('connect', namespace='/')
 def test_connect():

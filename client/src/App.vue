@@ -7,21 +7,19 @@
 </template>
 
 <script>
-import io from 'socket.io-client';
 import store from './store'
 import axios from 'axios'
 export default {
   name: 'App',
   data() {
-    return {
-      socket : io('localhost:5000')
-    };
+    return {};
   },
   created() {
-    this.socket.on('sendEvents', (data) => {
+    store.state.socket.on('sendEvents', (data) => {
+      console.log(data)
       store.commit('setEvents', data)
     });
-    this.socket.emit('getEvents');
+    store.state.socket.emit('getEvents');
   }
 }
 </script>
