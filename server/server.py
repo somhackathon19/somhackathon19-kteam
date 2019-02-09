@@ -1,5 +1,5 @@
 from flask import Flask
-from mongo import getEvents
+from mongo import getEvents, addEvent
 from flask_socketio import SocketIO
 from flask_cors import CORS
 
@@ -12,6 +12,10 @@ socketio.run(app, port=5000, host='0.0.0.0')
 @app.route('/api/events')
 def apiGetEvents():
     return getEvents()
+
+@app.route('/api/events/add')
+def apiAddEvent():
+    return addEvent('')
 
 @socketio.on('message')
 def handle_message(message):
