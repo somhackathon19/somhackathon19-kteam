@@ -51,16 +51,16 @@
                 <div class="columns">
                   <div class="column">
                     <p>
-                      <b>Número de participants:</b>
-                      {{ event.participants.length }} / {{ event.numParticipants }}
+                      <b>Àmbits:</b>
+                      {{ event.ambit }}
                     </p>
                   </div>
                 </div>
                 <div class="columns">
                   <div class="column">
                     <p>
-                      <b>Àmbits:</b>
-                      {{ event.ambit }}
+                      <b>Participants ({{ event.participants.length }} / {{ event.numParticipants }}):</b>
+                      {{ event.participants.join(', ') }}
                     </p>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ export default {
   justify-content: center;
 }
 .title {
-  margin: 5px;
+  margin: 10px;
 }
 p {
   font-size: 20px;
