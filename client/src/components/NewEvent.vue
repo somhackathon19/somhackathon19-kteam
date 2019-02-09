@@ -65,39 +65,47 @@
                   </div>
                 </div>
                 <div class="columns is-mobile">
-                  <div class="column is-3">
+                  <div class="column is-4">
                     <div class="field">
                       <label class="label">Número participants</label>
-                      <input class="input" type="text">
+                      <input class="input" type="text" placeholder="Nº Participants">
                     </div>
                   </div>
-                  <div class="column is-2">
-                    <div class="field">
-                      <label class="label">Hora inici</label>
-                      <input type="time">
-                    </div>
+                  <div class="column is-4">
+                    <b-field label="Select a date">
+                        <b-datepicker
+                          placeholder="Selecciona dia..."
+                          icon="calendar-today"
+                          position="is-top-right"
+                        >
+                        </b-datepicker>
+                    </b-field>
                   </div>
-                   <div class="column is-2">
-                    <div class="field">
-                      <label class="label">Hora fi</label>
-                      <input type="time">
-                    </div>
+                   <div class="column is-4">
+                    <b-field label="Select a date">
+                        <b-datepicker
+                          placeholder="Selecciona dia..."
+                          icon="calendar-today"
+                          position="is-top-right"
+                        >
+                        </b-datepicker>
+                    </b-field>
                   </div>
                 </div>
                 <div class="columns is-mobile level-right">
                   <div class="column is-2">
                     <div class="field">
-                      <button class="button is-success" id="create" v-on:click="doLogin">Create</button>
+                      <button class="button is-success" id="create" v-on:click="">Create</button>
                     </div>
                   </div>
                   <div class="column is-2">
                     <div class="field">
-                      <button class="button is-success" id="save" v-on:click="doLogin">Save</button>
+                      <button class="button is-success" id="save" v-on:click="">Save</button>
                     </div>
                   </div>
                   <div class="column is-2">
                     <div class="field">
-                      <button class="button is-danger" id="delete" v-on:click="doLogin">Edit</button>
+                      <button class="button is-danger" id="delete" v-on:click="">Edit</button>
                     </div>
                   </div>
                 </div>
@@ -116,8 +124,6 @@ export default {
   props: ["titol", "descripcio"],
   data() {
     return {
-      msg: "Welcome to Your Vue.js App",
-      time: new Date()
     };
   }
 };
