@@ -7,18 +7,21 @@
 </template>
 
 <script>
+import io from 'socket.io-client';
 import store from './store'
 import axios from 'axios'
 export default {
   name: 'App',
+  data() {
+    return {
+      socket : io('localhost:5000')
+    };
+  },
   created() {
-    // axios
-    // .get('http://localhost:5000/api/events')
-    // .then((response) => {
-    //   if (response.status === 200) {
-    //     store.commit('setEvents', response.data)  
-    //   }
-    // })
+    this.socket.on('sendEvents', (data) => {
+      store.commit('setEvents', data)
+    });
+    this.socket.emit('getEvents');
   }
 }
 </script>

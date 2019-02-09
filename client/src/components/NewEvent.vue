@@ -41,17 +41,28 @@
                         placeholder="Selecciona dia..."
                         icon="calendar-today"
                         position="is-top-right"
+                        v-model="event.dia"
                       ></b-datepicker>
                     </b-field>
                   </div>
                   <div class="column is-4">
                     <b-field label="Hora inici">
-                      <b-timepicker placeholder="Selecciona hora inici" icon="clock" editable></b-timepicker>
+                      <b-timepicker
+                        placeholder="Selecciona hora inici"
+                        icon="clock"
+                        v-model="event.horaIni"
+                        editable
+                      ></b-timepicker>
                     </b-field>
                   </div>
                   <div class="column is-4">
                     <b-field label="Hora fi">
-                      <b-timepicker placeholder="Selecciona hora fi" icon="clock" editable></b-timepicker>
+                      <b-timepicker
+                        placeholder="Selecciona hora fi"
+                        icon="clock"
+                        v-model="event.horaFi"
+                        editable
+                      ></b-timepicker>
                     </b-field>
                   </div>
                   <div class="column is-3">
@@ -122,6 +133,7 @@
 
 <script>
 import io from 'socket.io-client';
+import store from '../store'
 import axios from 'axios'
 export default {
   name: "NewEvent",
@@ -134,6 +146,7 @@ export default {
   },
   methods: {
     crearEvent: function() {
+      this.event['participants'] = [store.state.nom];
       this.socket.emit('addEvent', this.event);
     },
     editarEvent: function() {

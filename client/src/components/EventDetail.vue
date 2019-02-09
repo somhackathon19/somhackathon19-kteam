@@ -6,23 +6,23 @@
           <div class="column is-half is-offset-one-quarter">
             <div class="card">
               <header class="card-header text-center">
-                <h1 class="title has-text-black">Partit de fútbol {{ event }}</h1>
+                <h1 class="title has-text-black">Partit de fútbol {{ event.titol }}</h1>
               </header>
               <div class="card-content">
-                <div>
+                <figure class="image " v-if="event.ambit == 'Esports'">
                   <img src="../assets/esports.png">
-                </div>
+                </figure>
+                <figure class="image" v-if="event.ambit != 'Esports'">
+                  <img src="../assets/cultura.png" >
+                </figure>
                 <div class="field">
                   <label class="label" style="font-size:25px">Descripció</label>
-                  <p>
-                    Hola amics, m'agradaria montar un partidet de fútbol en el camp municipal de
-                    mataró, però ens falten alguns jugados. Us agradaria apuntar-vos? {{ event }}
-                  </p>
+                  <p>{{ event.descripcio }}</p>
                 </div>
-                <!-- <div class="field">
+                <div class="field" v-if="event.observacions != ''">
                   <label class="label" style="font-size:20px">Observacions</label>
-                  <p>{{ event }}</p>
-                </div>-->
+                  <p>{{ event.observacions }}</p>
+                </div>
                 <div class="field">
                   <label class="label" style="font-size:25px">Informació sobre l'esdeveniment</label>
                 </div>
@@ -30,13 +30,13 @@
                   <div class="column is-6">
                     <p>
                       <b>Dia:</b>
-                      {{ event }}
+                      {{ event.dia.substring(0, 10) }}
                     </p>
                   </div>
                   <div class="column is-6">
                     <p>
                       <b>Durada:</b>
-                      {{ event }} - {{ event }}
+                      {{ event.horaIni.substring(11, 16) }} fins {{ event.horaFi.substring(11, 16) }}
                     </p>
                   </div>
                 </div>
@@ -44,7 +44,7 @@
                   <div class="column">
                     <p>
                       <b>Localització:</b>
-                      {{ event }}
+                      {{ event.localitzacio }}
                     </p>
                   </div>
                 </div>
@@ -52,7 +52,7 @@
                   <div class="column">
                     <p>
                       <b>Número de participants:</b>
-                      {{ event }} / {{ event }}
+                      {{ event.participants.length }} / {{ event.numParticipants }}
                     </p>
                   </div>
                 </div>
@@ -60,19 +60,19 @@
                   <div class="column">
                     <p>
                       <b>Àmbits:</b>
-                      {{ event }} ({{ event }},{{ event }})
+                      {{ event.ambit }}
                     </p>
                   </div>
                 </div>
-                <div class="columns is-mobile level-right">
-                  <div class="column is-2">
+                <div class="columns">
+                  <div class="column is-mobile is-pulled-left">
                     <div class="field">
-                      <button class="button is-success" id="create" v-on:click>Inscriure'm</button>
+                      <button class="button is-fullwidth is-success" id="create" v-on:click>Inscriure'm</button>
                     </div>
                   </div>
-                  <div class="column is-3">
+                  <div class="column is-mobile is-pulled-right">
                     <div class="field">
-                      <button class="button is-danger" id="delete" v-on:click>Desinscriure'm</button>
+                      <button class="button is-fullwidth is-danger" id="delete" v-on:click>Desinscriure'm</button>
                     </div>
                   </div>
                 </div>
@@ -86,11 +86,20 @@
 </template>
 
 <script>
+import io from 'socket.io-client';
 export default {
   name: "Event",
-  props: ["event"],
   data() {
-    return {};
+    return {
+      event: {},
+      socket : io('localhost:5000')
+    };
+  },
+  created() {
+    this.socket.on('sendEvent', (data) => {
+      this.event = JSON.parse(data.data)[0];
+    });
+    this.socket.emit('getEvent', { 'id': this.$route.params.id });
   }
 };
 </script>

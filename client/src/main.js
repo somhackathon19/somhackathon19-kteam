@@ -11,11 +11,6 @@ Vue.use(Buefy)
 
 Vue.config.productionTip = false
 
-var socket = io.connect('http://localhost:5000');
-socket.on('test', function(data){
-  console.log(data)
-});
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
