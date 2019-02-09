@@ -2,9 +2,7 @@
   <section class="hero is-fullheight">
     <div class="hero-head1">
       <header class="navbar bg-nav is-transparent">
-        <a class="navbar-item">
           <img src="../assets/logo_nostre.png" class="logo_nostre">
-        </a>
       </header>
     </div>
     <div class="hero-body fons-mataro">
@@ -60,9 +58,10 @@ export default {
   color: white;
   background-color:#002f6c;
 }
-.logo_nostre{
-  width: 85px;
-  height: 100%;
+.logo_nostre {
+  width: 90px;
+  height: 60px;
+  margin-top: 2px;
 }
 .fons-mataro {
   background: url("../assets/mataro_transparent.png");
@@ -75,6 +74,7 @@ export default {
   justify-content: center;
 }
 .bg-nav {
-  background-color: cadetblue;
+  background-color: #FFC107;
+  height: 65px;
 }
 </style>
