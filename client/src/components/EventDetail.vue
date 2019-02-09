@@ -24,7 +24,6 @@ export default {
   name: "Event",
   data() {
     return {
-      msg: "Welcome to Your Vue.js App"
     };
   }
 };

@@ -10,7 +10,7 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title">Events</h1>
-        <h2 class="subtitle">creaa events blablabla..</h2>
+        <h2 class="subtitle">crear events</h2>
         {{ $store.state.count }}
         <div class="columns is-multiline is-mobile">
           <div class="column is-4" v-for="event in events" v-bind:key="event.id">
@@ -33,6 +33,7 @@
 import EventCard from "@/components/EventCard";
 import EventDetail from "@/components/EventDetail";
 import { mapGetters, mapActions } from 'vuex'
+import store from '../store'
 export default {
   name: "Events",
   components: {
@@ -41,22 +42,12 @@ export default {
   },
   data() {
     return {
-      events: []
     };
   },
-  methods: {
-    getEvents: function(callback) {
-      const testObj = {
-        events: [{ id: 1, titol: "bon dia", descripcio: "hola bon dia" }]
-      };
-      callback(testObj);
+  computed: {
+    events () {
+      return store.state.events
     }
-  },
-  created() {
-    let context = this;
-    this.getEvents(function(data) {
-      context.events = data.events;
-    });
   }
 };
 </script>

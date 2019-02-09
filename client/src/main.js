@@ -7,6 +7,11 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+var socket = io.connect('localhost:5000');
+socket.on('test', function(data){
+  console.log(data)
+});
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

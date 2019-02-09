@@ -6,15 +6,18 @@
           <div class="column is-half is-offset-one-quarter">
             <div class="card">
               <header class="card-header text-center">
-                <h1 class="title" style="color:black">LOGIN</h1>
+                <h1 class="title has-text-black">LOGIN</h1>
               </header>
               <div class="card-content">
-                <div class="field">
-                  <label class="label">Username</label>
-                  <input class="input" v-model="name" type="text" placeholder="Introdueix el teu nom">
+                <div v-if="error" class="notification is-danger">
+                  {{ error }}
                 </div>
                 <div class="field">
-                <button class="button is-primary" id="button" v-on:click="doLogin">Submit</button>
+                  <label class="label">Nom</label>
+                  <input class="input" v-model="nom" v-on:keyup.13="doLogin" type="text" placeholder="Introdueix el teu nom">
+                </div>
+                <div class="field">
+                  <button class="button is-primary" id="button" v-on:click="doLogin">Entrar</button>
                 </div>
               </div>
             </div>
@@ -26,17 +29,24 @@
 </template>
 
 <script>
+import store from '../store'
+import router from '../router'
 export default {
   name: "Login",
   data() {
     return {
-      msg: "Welcome to Your Vue.js App",
-      name: ""
+      nom: '',
+      error: ''
     };
   },
   methods: {
     doLogin: function() {
-      console.log(this.name);
+      if (this.nom == '' || this.nom == null) {
+        this.error = 'No has introduït cap nom'
+      } else {
+        store.commit('setNom', this.nom);
+        router.push('events')
+      }
     }
   }
 };
@@ -53,10 +63,9 @@ export default {
 .card-header {
   justify-content: center;
 }
-.title{
-  margin: 5px;
+.title {
+  margin: 10px;
 }
-
 .card {
   margin-top: 10px;
   border-radius: 13px 13px 13px 13px;
