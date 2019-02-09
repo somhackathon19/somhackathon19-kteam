@@ -1,20 +1,20 @@
 <template>
   <div class="card event-bg">
-    <div class="card-content">
+    <div class="card-image">
+      <figure class="image" v-if="event.ambit == 'Esportiu'">
+        <img src="../assets/esports.png">
+      </figure>
+      <figure class="image" v-if="event.ambit != 'Esportiu'">
+        <img src="../assets/cultura.png" >
+      </figure>
+    </div>
+    <div class="card-content card-size has-background-white">
       <p class="title has-text-black">{{ event.titol }}</p>
       <p class="subtitle has-text-black">{{ event.descripcio }}</p>
     </div>
-    <footer class="card-footer">
-      <p class="card-footer-item">
-        <span>View on
-          <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
-        </span>
-      </p>
-      <p class="card-footer-item">
-        <span>Share on
-          <a href="#">Facebook</a>
-        </span>
-      </p>
+    <footer class="card-footer has-background-white">
+      <p class="card-footer-item">{{ event.data }}</p>
+      <p class="card-footer-item">{{ event.horaIni }}</p>
     </footer>
   </div>
 </template>
@@ -33,6 +33,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.card-size {
+  height: 150px;
+}
 .navbar {
   display: flex;
   justify-content: center;
