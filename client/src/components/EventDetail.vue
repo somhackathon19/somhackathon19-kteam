@@ -6,7 +6,14 @@
           <div class="column is-half is-offset-one-quarter">
             <div class="card">
               <header class="card-header text-center">
-                <h1 class="title has-text-black">Partit de fútbol {{ event.titol }}</h1>
+                <router-link to="/events">
+                  <a class="button is-rounded is-info">
+                    <span class="icon is-small">
+                      <i class="fas fa-chevron-left"></i>
+                    </span>
+                  </a>
+                </router-link>
+                <h1 class="title has-text-black">{{ event.titol }}</h1>
               </header>
               <div class="card-content">
                 <figure class="image " v-if="event.ambit == 'Esports'">
