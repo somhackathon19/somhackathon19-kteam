@@ -9,14 +9,13 @@
                 <h1 class="title" style="color:black">LOGIN</h1>
               </header>
               <div class="card-content">
-                <form class="pure-form" onsubmit="printConsole(e)">
-                  <div class="field">
-                    <input class="input" id="username" type="text" placeholder="Introdueix el teu nom">
-                  </div>
-                  <div class="field">
-                  <button class="button is-primary" id="button">Submit</button>
-                  </div>
-                </form>
+                <div class="field">
+                  <label class="label">Username</label>
+                  <input class="input" v-model="name" type="text" placeholder="Introdueix el teu nom">
+                </div>
+                <div class="field">
+                <button class="button is-primary" id="button" v-on:click="doLogin">Submit</button>
+                </div>
               </div>
             </div>
           </div>
@@ -31,25 +30,16 @@ export default {
   name: "Login",
   data() {
     return {
-      msg: "Welcome to Your Vue.js App"
+      msg: "Welcome to Your Vue.js App",
+      name: ""
     };
+  },
+  methods: {
+    doLogin: function() {
+      console.log(this.name);
+    }
   }
 };
-document.addEventListener('DOMContentLoaded', function () {
-  var button = document.getElementById("button");
-  if (button){
-    button.addEventListener("click", function (event){
-      console.log(document.getElementById('username').getAttribute('value'));
-    });
-  }
-});
-
-
-/*document.getElementById('submit').addEventListener('click', function (){
-  var data = document.getElementById()
-  console.log(document.getElementById('username').getAttribute('value'));
-})*/
-
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -63,8 +53,12 @@ document.addEventListener('DOMContentLoaded', function () {
 .card-header {
   justify-content: center;
 }
+.title{
+  margin: 5px;
+}
 
 .card {
+  margin-top: 10px;
   border-radius: 13px 13px 13px 13px;
   -moz-border-radius: 13px 13px 13px 13px;
   -webkit-border-radius: 13px 13px 13px 13px;
