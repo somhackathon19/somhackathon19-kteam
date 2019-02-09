@@ -15,11 +15,7 @@
         <div class="columns is-multiline is-mobile">
           <div class="column is-4" v-for="event in events" v-bind:key="event.id">
             <router-link v-bind:to="'/event/'+event.id">
-              <event-card
-                v-bind:titol="event.titol"
-                v-bind:descripcio="event.descripcio"
-                v-bind:key="event.id"
-              ></event-card>
+              <event-card v-bind:event="event"></event-card>
             </router-link>
           </div>
         </div>

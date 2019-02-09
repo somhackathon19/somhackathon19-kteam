@@ -1,8 +1,8 @@
 <template>
   <div class="card event-bg">
     <div class="card-content">
-      <p class="title has-text-black">{{ titol }}</p>
-      <p class="subtitle has-text-black">{{ descripcio }}</p>
+      <p class="title has-text-black">{{ event.titol }}</p>
+      <p class="subtitle has-text-black">{{ event.descripcio }}</p>
     </div>
     <footer class="card-footer">
       <p class="card-footer-item">
@@ -22,7 +22,7 @@
 <script>
 export default {
   name: "EventCard",
-  props: ["titol", "descripcio"],
+  props: ["event"],
   data() {
     return {
       msg: "Welcome to Your Vue.js App"
