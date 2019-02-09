@@ -27,5 +27,5 @@ def getEvents():
 
 
 def getEvent(id):
-    event = mycol.find({ 'id': id }):
+    event = mycol.find({ 'id': id })
     return jsonify(events)

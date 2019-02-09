@@ -5,9 +5,10 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'holabondiasomhackathon'
-cors = CORS(app,resources={r"/*":{"origins":"*"}})
+# cors = CORS(app)
+cors = CORS(app, resources={r"/*":{"origins":"*:*"}})
 socketio = SocketIO(app)
-socketio.run(app, port=5000, host='0.0.0.0')
+socketio.run(app)
 
 @app.route('/api/events')
 def apiGetEvents():

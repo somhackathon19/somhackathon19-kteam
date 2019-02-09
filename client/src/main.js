@@ -11,7 +11,7 @@ Vue.use(Buefy)
 
 Vue.config.productionTip = false
 
-// var socket = io.connect('http://178.62.238.205:80');
+var socket = io.connect('http://localhost:5000');
 // socket.on('test', function(data){
 //   console.log(data)
 // });
