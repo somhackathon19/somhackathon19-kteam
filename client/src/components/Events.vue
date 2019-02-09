@@ -11,6 +11,7 @@
       <div class="container has-text-centered">
         <h1 class="title">Events</h1>
         <h2 class="subtitle">creaa events blablabla..</h2>
+        {{ $store.state.count }}
         <div class="columns is-multiline is-mobile">
           <div class="column is-4" v-for="event in events" v-bind:key="event.id">
             <router-link v-bind:to="'/event/'+event.id">
@@ -31,6 +32,7 @@
 <script>
 import EventCard from "@/components/EventCard";
 import EventDetail from "@/components/EventDetail";
+import { mapGetters, mapActions } from 'vuex'
 export default {
   name: "Events",
   components: {
