@@ -79,7 +79,7 @@
                     </div>
                   </div>
                   <div class="column is-3">
-                    <div class="field">
+                    <div class="field" v-if="event.ambit == 'Cultural'">
                       <label class="label">Tipus</label>
                       <div class="control">
                         <div class="select">
@@ -96,7 +96,7 @@
                     </div>
                   </div>
                   <div class="column is-6">
-                    <div class="field">
+                    <div class="field" v-if="event.tipus == 'Altres' && event.ambit == 'Cultural'">
                       <label class="label">Altres</label>
                       <div class="control">
                         <input class="input" type="text" placeholder="Altres activitats" v-model="event.altres">
