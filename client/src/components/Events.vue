@@ -35,13 +35,10 @@
         </div>
         {{ $store.state.count }}
         <div class="columns is-multiline is-mobile">
-          <div class="column is-4" v-for="event in events" v-bind:key="event['_id']['$oid']">
-            <div class="field" v-if="(seleccio == 'esports' && event.ambit == 'Esports') ||
-             (seleccio == 'cultural' && event.ambit =='Cultural') || seleccio == 'tot'">
-              <router-link v-bind:to="'/event/'+event['_id']['$oid']">
-                <event-card v-bind:event="event"></event-card>
-              </router-link>
-            </div>
+          <div class="column is-4" v-for="event in filterEvents()" v-bind:key="event['_id']['$oid']">
+            <router-link v-bind:to="'/event/'+event['_id']['$oid']">
+              <event-card v-bind:event="event"></event-card>
+            </router-link>
           </div>
         </div>
       </div>
@@ -64,6 +61,18 @@ export default {
     return {
       seleccio: "tot"
     };
+  },
+  methods: {
+    filterEvents: function() {
+      let newEvents = []
+      for (let i = 0; i < this.events.length; ++i) {
+        if ((this.seleccio == 'esports' && this.events[i].ambit == 'Esports') ||
+          (this.seleccio == 'cultural' && this.events[i].ambit =='Cultural') || this.seleccio == 'tot') {
+          newEvents.push(this.events[i]);
+        }
+      }
+      return newEvents;
+    }
   },
   computed: {
     events() {
