@@ -7,7 +7,7 @@
             <img src="../assets/logo_nostre.png" class="logo_nostre">
             <div class="card">
               <header class="card-header text-center">
-                <h1 class="title has-text-black">MataroViva</h1>
+                <h1 class="title has-text-black">MataróViva</h1>
               </header>
               <div class="card-content">
                 <div v-if="error" class="notification is-danger">
