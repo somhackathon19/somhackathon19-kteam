@@ -178,8 +178,8 @@ export default {
       document.getElementById("modalApp").classList.remove('is-active')
     },
     crearEvent: function() {
-      // this.event['participants'] = [store.state.nom];
-      // store.state.socket.emit('addEvent', this.event);
+      this.event['participants'] = [store.state.nom];
+      store.state.socket.emit('addEvent', this.event);
     },
     initMap() {
       var mymap = L.map('mymap').setView([41.5395403,2.4346742], 14);

@@ -5,7 +5,7 @@
         <img src="../assets/esports.png">
       </figure>
       <figure class="image" v-if="event.ambit != 'Esports'">
-        <img src="../assets/cultura.png" >
+        <img src="../assets/cultura.png" width="">
       </figure>
     </div>
     <div class="card-content card-size has-background-white">
@@ -32,6 +32,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 .card-size {
   height: 150px;
 }
