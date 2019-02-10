@@ -9,7 +9,7 @@ Vue.use(Vuex)
 
 const state = {
   nom: '',
-  socket : io('localhost:5000'),
+  socket : io('192.168.45.127:5000'),
   events: [
     // {
     //   "id": 1,

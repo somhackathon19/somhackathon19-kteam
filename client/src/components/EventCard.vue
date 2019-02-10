@@ -10,7 +10,9 @@
     </div>
     <div class="card-content card-size has-background-white">
       <p class="title has-text-black">{{ event.titol }}</p>
-      <p class="subtitle has-text-black">{{ event.descripcio }}</p>
+      <p class="subtitle has-text-black">
+        {{ event.descripcio.substring(0, 95) }}<i v-if="event.descripcio.length > 95">...</i>
+      </p>
     </div>
     <footer class="card-footer has-background-white">
       <p class="card-footer-item">{{ event.dia.substring(0, 10) }}</p>

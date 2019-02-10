@@ -135,7 +135,7 @@
           <section class="modal-card-body">
             <b>Recomenats:</b>
             <ol type="1">
-              <li v-for="rcm in getRecommended()" v-bind:key="rcm.NOM">{{ rcm.NOM }}</li>
+              <li v-for="rcm in recommended" v-bind:key="rcm.NOM">{{ rcm.NOM }}</li>
             </ol>
             <div id="app">
               <div id="mymap"></div>
@@ -222,24 +222,6 @@ export default {
           "LAT": "41,5355821687355",
           "LNG": "2,43214336662548"
         },
-          {
-          "NOM": "Espai Jove Pla d'en Boet",
-          "ADRECA": "Ronda de Francesc Macià, 103. 08302 Mataró (BARCELONA)",
-          "CATEGORIA": "Serveis per a joves",
-          "TIPUS": "Espai jove",
-          "WKT": "POINT (2.4345190321936 41.5358081090341)",
-          "LAT": "41,5358081090341",
-          "LNG": "2,4345190321936"
-        },
-        {
-          "NOM": "Centre Obert Municipal Pla d'en Boet",
-          "ADRECA": "Passeig de Pau Claris, 31. 08302 Mataró (BARCELONA)",
-          "CATEGORIA": "Serveis socials",
-          "TIPUS": "Oficines de Serveis socials",
-          "WKT": "POINT (2.43214336662548 41.5355821687355)",
-          "LAT": "41,5355821687355",
-          "LNG": "2,43214336662548"
-        },
         {
           "NOM": "Camp Municipal de Futbol de Rocafonda",
           "ADRECA": "Ronda de Rafael Estrany, 24. 08304 Mataró (BARCELONA)",
@@ -273,6 +255,9 @@ export default {
   mounted() {
     this.initMap();
   },
+  created() {
+    this.recommended = this.getRecommended();
+  },
   methods: {
     getRecommended: function () {
       let recommends = [];
@@ -295,10 +280,7 @@ export default {
     crearEvent: function() {
       this.event['participants'] = [store.state.nom];
       store.state.socket.emit('addEvent', this.event);
-<<<<<<< HEAD
-=======
       router.push('/events')
->>>>>>> 55c0b81681c6481a94f51254fcc5a83f2b8d7a67
     },
     initMap() {
       var mymap = L.map('mymap').setView([41.5395403,2.4346742], 14);
