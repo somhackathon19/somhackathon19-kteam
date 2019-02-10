@@ -132,7 +132,6 @@
 </template>
 
 <script>
-import io from 'socket.io-client';
 import store from '../store'
 import axios from 'axios'
 export default {
@@ -140,20 +139,19 @@ export default {
   props: ["id"],
   data() {
     return {
-      event: {},
-      socket : io('localhost:5000')
+      event: {}
     };
   },
   methods: {
     crearEvent: function() {
       this.event['participants'] = [store.state.nom];
-      this.socket.emit('addEvent', this.event);
+      store.state.socket.emit('addEvent', this.event);
     },
     editarEvent: function() {
-      this.socket.emit('editEvent', { 'id': id, 'event': this.event });
+      store.state.socket.emit('editEvent', { 'id': id, 'event': this.event });
     },
     borrarEvent: function() {
-      this.socket.emit('deleteEvent', { 'id': id });
+      store.state.socket.emit('deleteEvent', { 'id': id });
     }
   }
 };

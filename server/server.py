@@ -25,6 +25,20 @@ def apiAddEvent(event):
     addEvent(event)
     emit('sendEvents', { 'data': getEvents() }, broadcast=True, namespace='/')
 
+@socketio.on('unirse')
+def apiAddEvent(event):
+    print('unirse: ' + str(event))
+    addUser(event['id'], event['name'])
+    emit('sendEvent', { 'data': getEvent(str(event['id'])) })
+    emit('sendEvents', { 'data': getEvents() }, broadcast=True, namespace='/')
+
+@socketio.on('sortir')
+def apiAddEvent(event):
+    print('sortir: ' + str(event))
+    removeUser(event['id'], event['name'])
+    emit('sendEvent', { 'data': getEvent(str(event['id'])) })
+    emit('sendEvents', { 'data': getEvents() }, broadcast=True, namespace='/')
+
 @socketio.on('connect', namespace='/')
 def test_connect():
     emit('test', {'data': 'Connected'})

@@ -72,15 +72,18 @@
                   </div>
                 </div>
                 <hr>
+                <div v-if="error" class="notification is-danger">
+                  {{ error }}
+                </div>
                 <div class="columns">
                   <div class="column is-mobile is-pulled-left">
                     <div class="field">
-                      <button class="button is-fullwidth is-success" id="create" v-on:click>Inscriure'm</button>
+                      <button class="button is-fullwidth is-success" id="create" v-on:click="unirse()">Inscriure'm</button>
                     </div>
                   </div>
                   <div class="column is-mobile is-pulled-right">
                     <div class="field">
-                      <button class="button is-fullwidth is-danger" id="delete" v-on:click>Desinscriure'm</button>
+                      <button class="button is-fullwidth is-danger" id="delete" v-on:click="sortir()">Desinscriure'm</button>
                     </div>
                   </div>
                 </div>
@@ -94,20 +97,38 @@
 </template>
 
 <script>
-import io from 'socket.io-client';
+import store from '../store';
 export default {
   name: "Event",
   data() {
     return {
       event: {},
-      socket : io('localhost:5000')
+      error: ''
     };
   },
+  methods: {
+    unirse: function() {
+      if (this.event.participants.indexOf(store.state.nom) >= 0) {
+        this.error = 'Ja estàs inscrit a aquest esdeveniment';
+      } else if (this.event.participants.length >= this.event.numParticipants) {
+        this.error = 'Aquest esdeveniment ja està ple';
+      } else {
+        store.state.socket.emit('unirse', { 'name': store.state.nom, 'id': this.event['_id']['$oid'] });
+      }
+    },
+    sortir: function() {
+      if (this.event.participants.indexOf(store.state.nom) >= 0) {
+        store.state.socket.emit('sortir', { 'name': store.state.nom, 'id': this.event['_id']['$oid'] });
+      } else {
+        this.error = 'No estàs en aquest esdeveniment';
+      }
+    }
+  },
   created() {
-    this.socket.on('sendEvent', (data) => {
+    store.state.socket.on('sendEvent', (data) => {
       this.event = JSON.parse(data.data)[0];
     });
-    this.socket.emit('getEvent', { 'id': this.$route.params.id });
+    store.state.socket.emit('getEvent', { 'id': this.$route.params.id });
   }
 };
 </script>
