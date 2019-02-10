@@ -32,7 +32,7 @@
                     </div>
                   </div>
                   <div class="column is-8">
-                    <label class="label">Localització</label>
+                    <label class="label">Localització <button class="button is-warning is-small" v-on:click="obrirMapa()"><i class="fa fa-map-marker" aria-hidden="true"></i></button></label>
                     <input class="input" type="text" placeholder="Localització" v-model="event.localitzacio">
                   </div>
                   <div class="column is-4">
@@ -111,11 +111,6 @@
                       <button class="button is-fullwidth is-success" id="create" v-on:click="crearEvent()">Crear</button>
                     </div>
                   </div>
-                  <!-- <div class="column is-pulled-left">
-                    <div class="field">
-                      <button class="button is-fullwidth is-success" id="save" v-on:click="editarEvent()">Editar</button>
-                    </div>
-                  </div> -->
                   <div class="column is-pulled-right">
                     <div class="field">
                       <router-link to="/events">
@@ -130,10 +125,30 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="modal" id="modalApp">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">Visualitzar espais públics</p>
+          </header>
+          <section class="modal-card-body">
+            <div id="app">
+              <div id="mymap"></div>
+            </div>
+          </section>
+          <footer class="modal-card-foot">
+            <button class="button" v-on:click="tancarModal()">Tancar</button>
+          </footer>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
+import L from 'leaflet'
+import csv from "@/assets/convertcsv.json"
 import store from '../store'
 import axios from 'axios'
 export default {
@@ -141,27 +156,52 @@ export default {
   props: ["id"],
   data() {
     return {
-      event: {}
+      event: {},
+      zoom: 13,
+      center: L.latLng(47.413220, -1.219482),
+      url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+      attribution: '',
+      marker: L.latLng(47.413220, -1.219482),
     };
   },
+  mounted() {
+    this.initMap();
+  },
   methods: {
-    crearEvent: function() {
-      this.event['participants'] = [store.state.nom];
-      store.state.socket.emit('addEvent', this.event);
+    obrirMapa: function () {
+      document.getElementById("modalApp").classList.add('is-active')
     },
-    // editarEvent: function() {
-    //   store.state.socket.emit('editEvent', { 'id': id, 'event': this.event });
-    // },
-    // borrarEvent: function() {
-    //   store.state.socket.emit('deleteEvent', { 'id': id });
-    // }
+    seleccionar: function(adreca) {
+      console.log(adreca)
+    },
+    tancarModal: function() {
+      document.getElementById("modalApp").classList.remove('is-active')
+    },
+    crearEvent: function() {
+      // this.event['participants'] = [store.state.nom];
+      // store.state.socket.emit('addEvent', this.event);
+    },
+    initMap() {
+      var mymap = L.map('mymap').setView([41.5395403,2.4346742], 14);
+      L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(mymap);
+      for (let i = 0; i < csv.length; ++i) {
+        let lat = csv[i]['LAT'];
+        let lng = csv[i]['LNG'];
+        if (lat != null && lng != null) {
+          let coords = [parseFloat(lat.replace(",", ".")), parseFloat(lng.replace(",", "."))];
+          let text = '<input class="input is-fullheight" style="" id="'+lat+lng+'" value="'+csv[i]['ADRECA']+'"/><br/><button class="button" onclick="document.getElementById(\''+lat+lng+'\').select().execCommand(\'copy\');">Seleccionar</button><hr>' + csv[i]['NOM'];
+          var marker = L.marker(coords).bindPopup(text).addTo(mymap);
+        }
+      }
+    }
   }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .fons-mataro {
   background: url("../assets/mataro_transparent.png");
   background-repeat: no-repeat;
@@ -181,5 +221,31 @@ export default {
   -moz-border-radius: 13px 13px 13px 13px;
   -webkit-border-radius: 13px 13px 13px 13px;
   border: 0px solid #000000;
+}
+#app,
+#mymap {
+    position: relative;
+    padding: 0;
+    width: 600px;
+    height: 600px;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    color: #42b983;
 }
 </style>

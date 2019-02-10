@@ -5,7 +5,9 @@
 </template>
 
 <script>
+  import axios from 'axios'
   import L from 'leaflet'
+  import csv from "@/assets/convertcsv.json"
   export default {
     data() {
       return {
@@ -20,14 +22,21 @@
         this.initMap();
     },
     methods: {
-        initMap() {
-            var mymap = L.map('mymap').setView([51.5, -0.09], 14);
-            L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(mymap);
-            var marker = L.marker([51.5, -0.09]).addTo(mymap);
-        }
-    },
+      initMap() {
+          var mymap = L.map('mymap').setView([41.5395403,2.4346742], 14);
+          L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+              attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(mymap);
+          for (let i = 0; i < csv.length; ++i) {
+            let lat = csv[i]['LAT'];
+            let lng = csv[i]['LNG'];
+            if (lat != null && lng != null) {
+              let coords = [parseFloat(lat.replace(",", ".")), parseFloat(lng.replace(",", "."))];
+              var marker = L.marker(coords).bindPopup(csv[i]['ADRECA']).addTo(mymap);
+            }
+          }
+      }
+    }
   }
 </script>
 
