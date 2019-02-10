@@ -163,10 +163,10 @@ export default {
     return {
       event: {},
       zoom: 13,
-      center: L.latLng(47.413220, -1.219482),
+      center: L.latLng(41.543634,2.4327623),
       url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
       attribution: '',
-      marker: L.latLng(47.413220, -1.219482),
+      marker: L.latLng(41.543634,2.4327623),
       recommended: [
         {
           "NOM": "Centre Cívic Pla d'en Boet",
@@ -283,7 +283,7 @@ export default {
       router.push('/events')
     },
     initMap() {
-      var mymap = L.map('mymap').setView([41.5395403,2.4346742], 14);
+      var mymap = L.map('mymap').setView([41.543634,2.4327623], 14);
       L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
           attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(mymap);
