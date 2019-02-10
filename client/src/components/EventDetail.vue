@@ -116,6 +116,7 @@ export default {
   methods: {
     generar: function() {
       store.state.socket.emit('generar', { 'name': store.state.nom, 'id': this.event['_id']['$oid'] });
+      window.open("http://127.0.0.1:5000/solicitud");
     },
     unirse: function() {
       if (this.event.participants.indexOf(store.state.nom) >= 0) {

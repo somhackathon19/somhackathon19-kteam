@@ -133,6 +133,10 @@
             <p class="modal-card-title">Visualitzar espais públics</p>
           </header>
           <section class="modal-card-body">
+            <b>Recomenats:</b>
+            <ol type="1">
+              <li v-for="rcm in getRecommended()" v-bind:key="rcm.NOM">{{ rcm.NOM }}</li>
+            </ol>
             <div id="app">
               <div id="mymap"></div>
             </div>
@@ -150,6 +154,7 @@
 import L from 'leaflet'
 import csv from "@/assets/convertcsv.json"
 import store from '../store'
+import router from '../router'
 import axios from 'axios'
 export default {
   name: "NewEvent",
@@ -162,12 +167,122 @@ export default {
       url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
       attribution: '',
       marker: L.latLng(47.413220, -1.219482),
+      recommended: [
+        {
+          "NOM": "Centre Cívic Pla d'en Boet",
+          "ADRECA": "Carrer de Juan Sebastián Elcano, 6. 08302 Mataró (BARCELONA)",
+          "CATEGORIA": "Centres Cívics i Socials",
+          "TIPUS": "Centres Cívics",
+          "WKT": "POINT (2.43552178933492 41.5358533810768)",
+          "LAT": "41,5358533810768",
+          "LNG": "2,43552178933492"
+        },
+          {
+          "NOM": "Espai Jove Pla d'en Boet",
+          "ADRECA": "Ronda de Francesc Macià, 103. 08302 Mataró (BARCELONA)",
+          "CATEGORIA": "Serveis per a joves",
+          "TIPUS": "Espai jove",
+          "WKT": "POINT (2.4345190321936 41.5358081090341)",
+          "LAT": "41,5358081090341",
+          "LNG": "2,4345190321936"
+        },
+          {
+          "NOM": "Centre de Dia Cerdanyola",
+          "ADRECA": "Avinguda de Josep Puig i Cadafalch, 210. 08303 Mataró (BARCELONA)",
+          "CATEGORIA": "Serveis socials",
+          "TIPUS": "Centres de Dia per a la gent gran",
+          "WKT": "POINT (2.42508309593626 41.5404569097324)",
+          "LAT": "41,5404569097324",
+
+        },
+          {
+          "NOM": "Casal Municipal de la Gent Gran de Cerdanyola",
+          "ADRECA": "Avinguda de la Gatassa, 52. 08303 Mataró (BARCELONA)",
+          "CATEGORIA": "Casals",
+          "TIPUS": "Casals per a la gent gran",
+          "WKT": "POINT (2.42838842212477 41.5375804396233)",
+          "LAT": "41,5375804396233",
+          "LNG": "2,42838842212477"
+        },
+          {
+          "NOM": "Camp Municipal de Futbol Pla d'en Boet",
+          "ADRECA": "Avinguda de Lluís Companys, 65. 08302 Mataró (BARCELONA)",
+          "CATEGORIA": "Esports",
+          "TIPUS": "Camps esportius municipals",
+          "WKT": "POINT (2.43286990636158 41.5330043134044)",
+          "LAT": "41,5330043134044",
+          "LNG": "2,43286990636158"
+        },
+          {
+          "NOM": "Centre Obert Municipal Pla d'en Boet",
+          "ADRECA": "Passeig de Pau Claris, 31. 08302 Mataró (BARCELONA)",
+          "CATEGORIA": "Serveis socials",
+          "TIPUS": "Oficines de Serveis socials",
+          "WKT": "POINT (2.43214336662548 41.5355821687355)",
+          "LAT": "41,5355821687355",
+          "LNG": "2,43214336662548"
+        },
+          {
+          "NOM": "Espai Jove Pla d'en Boet",
+          "ADRECA": "Ronda de Francesc Macià, 103. 08302 Mataró (BARCELONA)",
+          "CATEGORIA": "Serveis per a joves",
+          "TIPUS": "Espai jove",
+          "WKT": "POINT (2.4345190321936 41.5358081090341)",
+          "LAT": "41,5358081090341",
+          "LNG": "2,4345190321936"
+        },
+        {
+          "NOM": "Centre Obert Municipal Pla d'en Boet",
+          "ADRECA": "Passeig de Pau Claris, 31. 08302 Mataró (BARCELONA)",
+          "CATEGORIA": "Serveis socials",
+          "TIPUS": "Oficines de Serveis socials",
+          "WKT": "POINT (2.43214336662548 41.5355821687355)",
+          "LAT": "41,5355821687355",
+          "LNG": "2,43214336662548"
+        },
+        {
+          "NOM": "Camp Municipal de Futbol de Rocafonda",
+          "ADRECA": "Ronda de Rafael Estrany, 24. 08304 Mataró (BARCELONA)",
+          "CATEGORIA": "Esports",
+          "TIPUS": "Camps esportius municipals",
+          "WKT": "POINT (2.45034268946787 41.5511311360533)",
+          "LAT": "41,5511311360533",
+          "LNG": "2,45034268946787"
+        },
+          {
+          "NOM": "Pista Poliesportiva Municipal de Rocafonda",
+          "ADRECA": "Ronda de Rafael Estrany, 24. 08304 Mataró (BARCELONA)",
+          "CATEGORIA": "Esports",
+          "TIPUS": "Pistes i Poliesportius",
+          "WKT": "POINT (2.45034268946787 41.5511311360533)",
+          "LAT": "41,5511311360533",
+          "LNG": "2,45034268946787"
+        },
+          {
+          "NOM": "Espai Jove Rocafonda-El Palau",
+          "ADRECA": "Carrer de Pablo Ruiz Picasso, 28. 08304 Mataró (BARCELONA)",
+          "CATEGORIA": "Serveis per a joves",
+          "TIPUS": "Espai jove",
+          "WKT": "POINT (2.44956386014662 41.5488956938084)",
+          "LAT": "41,5488956938084",
+          "LNG": "2,44956386014662"
+        }
+        ]
     };
   },
   mounted() {
     this.initMap();
   },
   methods: {
+    getRecommended: function () {
+      let recommends = [];
+      let numb = Math.floor((Math.random()*this.recommended.length)+1);
+      recommends.push(this.recommended[(numb+1)%this.recommended.length])
+      recommends.push(this.recommended[(numb+2)%this.recommended.length])
+      recommends.push(this.recommended[(numb+3)%this.recommended.length])
+      console.log(recommends)
+      return recommends;
+    },
     obrirMapa: function () {
       document.getElementById("modalApp").classList.add('is-active')
     },
@@ -178,8 +293,9 @@ export default {
       document.getElementById("modalApp").classList.remove('is-active')
     },
     crearEvent: function() {
-      // this.event['participants'] = [store.state.nom];
-      // store.state.socket.emit('addEvent', this.event);
+      this.event['participants'] = [store.state.nom];
+      store.state.socket.emit('addEvent', this.event);
+      router.push('/events')
     },
     initMap() {
       var mymap = L.map('mymap').setView([41.5395403,2.4346742], 14);

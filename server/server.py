@@ -1,14 +1,18 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 from mongo import *
 from flask_socketio import SocketIO, send, emit
 from flask_cors import CORS
 from pdfcompleter import *
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='filled')
 app.config['SECRET_KEY'] = 'holabondiasomhackathon'
 cors = CORS(app, resources={r"/*":{"origins":"*:*"}})
 socketio = SocketIO(app)
 socketio.run(app)
+
+@app.route('/solicitud', methods=['GET', 'POST'])
+def download():
+    return send_file('filled/memo.pdf', as_attachment=True)
 
 @socketio.on('getEvents')
 def apiGetEvents():
