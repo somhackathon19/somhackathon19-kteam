@@ -1,0 +1,1224 @@
+﻿[
+ {
+   "NOM": "Fundació Tecnocampus Mataró-Maresme",
+   "ADRECA": "Avinguda d'Ernest Lluch, 32. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Administració municipal",
+   "TIPUS": "Àrea de Serveis Centrals, Ocupació i Promoció Econòmica",
+   "WKT": "POINT (2.43468298017362 41.5283283221368)",
+   "LAT": "41,5283283221368",
+   "LNG": "2,43468298017362"
+ },
+ {
+   "NOM": "Museu Arxiu de Santa Maria",
+   "ADRECA": "Carrer de la Beata Maria, 3. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Museus",
+   "WKT": "POINT (2.44681355381292 41.5406379411983)",
+   "LAT": "41,5406379411983",
+   "LNG": "2,44681355381292"
+ },
+ {
+   "NOM": "Clos arqueològic de Torre Llauder",
+   "ADRECA": "Carrer de Javier Castaños, 175. Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Museus",
+   "WKT": "POINT (2.43404065401684 41.5315834934551)",
+   "LAT": "41,5315834934551",
+   "LNG": "2,43404065401684"
+ },
+ {
+   "NOM": "Casal Municipal de la Gent Gran de la Llàntia",
+   "ADRECA": "Carrer Nou de La Mercè, 60. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.4283514671966 41.5464555065839)",
+   "LAT": "41,5464555065839",
+   "LNG": "2,4283514671966"
+ },
+ {
+   "NOM": "Casal Municipal de la Gent Gran de Molins",
+   "ADRECA": "Carrer de la Mare de Déu dels Àngels, 16. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.4423306843322 41.5500765761548)",
+   "LAT": "41,5500765761548",
+   "LNG": "2,4423306843322"
+ },
+ {
+   "NOM": "Casal Municipal de la Gent Gran de Santes- Escorxador",
+   "ADRECA": "Carrer de Floridablanca, 118. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.45080174714176 41.5446608525904)",
+   "LAT": "41,5446608525904",
+   "LNG": "2,45080174714176"
+ },
+ {
+   "NOM": "Pista Poliesportiva Municipal de Casal de Joves",
+   "ADRECA": "Plaça d'Espanya, 1. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes i Poliesportius",
+   "WKT": "POINT (2.44259982930665 41.5450167965494)",
+   "LAT": "41,5450167965494",
+   "LNG": "2,44259982930665"
+ },
+ {
+   "NOM": "Pistes Municipals de Petanca Rocafonda",
+   "ADRECA": "Ronda de Rafael Estrany, 24. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes de petanca",
+   "WKT": "POINT (2.45034268946787 41.5511311360533)",
+   "LAT": "41,5511311360533",
+   "LNG": "2,45034268946787"
+ },
+ {
+   "NOM": "Centre de Promoció Social",
+   "ADRECA": "Carrer de Ciutat Freta, 6. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Oficines de Serveis socials",
+   "WKT": "POINT (2.43480200865605 41.5348474958096)",
+   "LAT": "41,5348474958096",
+   "LNG": "2,43480200865605"
+ },
+ {
+   "NOM": "Residència Voramar",
+   "ADRECA": "Carrer de Tordera, 8. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres residencials per a gent gran",
+   "WKT": "POINT (2.43382850721645 41.5273917753807)",
+   "LAT": "41,5273917753807",
+   "LNG": "2,43382850721645"
+ },
+ {
+   "NOM": "Casa de la Música Popular",
+   "ADRECA": "Carrer de Manuel Serra i Moret, 6. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Sales de concerts i espectacles",
+   "WKT": "POINT (2.43149378398336 41.5335257183919)",
+   "LAT": "41,5335257183919",
+   "LNG": "2,43149378398336"
+ },
+ {
+   "NOM": "Ca l'Arenas. Centre d'art del Museu de Mataró",
+   "ADRECA": "Carrer d'Argentona, 64. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Sales d'exposicions i galeries d'art",
+   "WKT": "POINT (2.44157827466898 41.5408689828985)",
+   "LAT": "41,5408689828985",
+   "LNG": "2,44157827466898"
+ },
+ {
+   "NOM": "Plaça de Francisco Tomás y Valiente",
+   "ADRECA": "Carrer de Josep Abril, 4. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "",
+   "TIPUS": "",
+   "WKT": "POINT (2.43987166966835 41.5331375490004)",
+   "LAT": "41,5331375490004",
+   "LNG": "2,43987166966835"
+ },
+ {
+   "NOM": "Plaça Granollers",
+   "ADRECA": "Camí de la Geganta, 82. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "",
+   "TIPUS": "",
+   "WKT": "POINT (2.43659647552176 41.5414021293295)",
+   "LAT": "41,5414021293295",
+   "LNG": "2,43659647552176"
+ },
+ {
+   "NOM": "Parc Central",
+   "ADRECA": "Camí de la Geganta, 2. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "",
+   "TIPUS": "",
+   "WKT": "POINT (2.44048613397917 41.5443081425763)",
+   "LAT": "41,5443081425763",
+   "LNG": "2,44048613397917"
+ },
+ {
+   "NOM": "Capgrossos de Mataró",
+   "ADRECA": "Passatge de Mariona Galindo, 1. Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Associació cultural",
+   "WKT": "POINT (2.45326192007059 41.543791357496)",
+   "LAT": "41,543791357496",
+   "LNG": "2,45326192007059"
+ },
+ {
+   "NOM": "Foment Mataroní",
+   "ADRECA": "Carrer Nou, 11. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Associació cultural",
+   "WKT": "POINT (2.44477269108586 41.5409476029239)",
+   "LAT": "41,5409476029239",
+   "LNG": "2,44477269108586"
+ },
+ {
+   "NOM": "Òmnium Cultural. Delegació de Mataró",
+   "ADRECA": "Carrer d'Argentona, 59. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Associació cultural",
+   "WKT": "POINT (2.44119956361732 41.540735944455)",
+   "LAT": "41,540735944455",
+   "LNG": "2,44119956361732"
+ },
+ {
+   "NOM": "Centre Natació Mataró",
+   "ADRECA": "Passeig Marítim, 92. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Centres esportius",
+   "WKT": "POINT (2.45265128956323 41.5378275412627)",
+   "LAT": "41,5378275412627",
+   "LNG": "2,45265128956323"
+ },
+ {
+   "NOM": "Plaça de Santa Anna",
+   "ADRECA": "Camí Ral, 382. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "",
+   "TIPUS": "",
+   "WKT": "POINT (2.44441648631513 41.5372107862582)",
+   "LAT": "41,5372107862582",
+   "LNG": "2,44441648631513"
+ },
+ {
+   "NOM": "Plaça de les Tereses",
+   "ADRECA": "Plaça de les Tereses, 42. Mataró (BARCELONA)",
+   "CATEGORIA": "",
+   "TIPUS": "",
+   "WKT": "POINT (2.44179859427142 41.5385801305666)",
+   "LAT": "41,5385801305666",
+   "LNG": "2,44179859427142"
+ },
+ {
+   "NOM": "Poliesportiu Municipal Teresa Maria Roca i Vallmajor",
+   "ADRECA": "Carrer de Terrassa, 33. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes i Poliesportius",
+   "WKT": "POINT (2.43827453756624 41.5468895053175)",
+   "LAT": "41,5468895053175",
+   "LNG": "2,43827453756624"
+ },
+ {
+   "NOM": "Pista Poliesportiva Municipal de Cirera",
+   "ADRECA": "Avinguda del Corregiment de Mataró, 51. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes i Poliesportius",
+   "WKT": "POINT (2.43742949764703 41.5467116601878)",
+   "LAT": "41,5467116601878",
+   "LNG": "2,43742949764703"
+ },
+ {
+   "NOM": "Casal de Barri Les Esmendies",
+   "ADRECA": "Ronda de Leopoldo O'donnell, 94. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals de barri",
+   "WKT": "POINT (2.43477154441911 41.5400441134614)",
+   "LAT": "41,5400441134614",
+   "LNG": "2,43477154441911"
+ },
+ {
+   "NOM": "Camp Municipal de Futbol Can Xalant",
+   "ADRECA": "Carrer de Pablo Iglesias, 64. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Camps esportius municipals",
+   "WKT": "POINT (2.43204934849402 41.5315747617127)",
+   "LAT": "41,5315747617127",
+   "LNG": "2,43204934849402"
+ },
+ {
+   "NOM": "Camp Municipal de Futbol Cirera",
+   "ADRECA": "Carretera de Cirera, 173. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Camps esportius municipals",
+   "WKT": "POINT (2.42992848084068 41.5541616958851)",
+   "LAT": "41,5541616958851",
+   "LNG": "2,42992848084068"
+ },
+ {
+   "NOM": "Centre Social Carrer de Dinamarca",
+   "ADRECA": "Carrer de Dinamarca, 10. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.43098064882337 41.5468306185836)",
+   "LAT": "41,5468306185836",
+   "LNG": "2,43098064882337"
+ },
+ {
+   "NOM": "Centre Social Carrer d'Alemanya",
+   "ADRECA": "Carrer d'Alemanya, 27. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.43068368403904 41.5450335721551)",
+   "LAT": "41,5450335721551",
+   "LNG": "2,43068368403904"
+ },
+ {
+   "NOM": "Residència Torre Llauder (Càritas)",
+   "ADRECA": "Carrer de Sant Valentí, 19. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres residencials per a gent gran",
+   "WKT": "POINT (2.43639943151168 41.5318048685207)",
+   "LAT": "41,5318048685207",
+   "LNG": "2,43639943151168"
+ },
+ {
+   "NOM": "Església de Filadèlfia",
+   "ADRECA": "Ronda de Francesc Macià, 103. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis religiosos",
+   "TIPUS": "Església Evangèlica",
+   "WKT": "POINT (2.4345190321936 41.5358081090341)",
+   "LAT": "41,5358081090341",
+   "LNG": "2,4345190321936"
+ },
+ {
+   "NOM": "Centre de Dia Mataró Ferran Cañete",
+   "ADRECA": "Carrer del Tennis, 33. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres de Dia per a la gent gran",
+   "WKT": "POINT (2.46016138448669 41.5559194256925)",
+   "LAT": "41,5559194256925",
+   "LNG": "2,46016138448669"
+ },
+ {
+   "NOM": "Centre de Dia Mare Nostra",
+   "ADRECA": "L'Esplanada, 80. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres de Dia per a la gent gran",
+   "WKT": "POINT (2.44524962545719 41.5448378590619)",
+   "LAT": "41,5448378590619",
+   "LNG": "2,44524962545719"
+ },
+ {
+   "NOM": "Direcció de Cultura",
+   "ADRECA": "Carrer de Sant Josep, 9. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Administració municipal",
+   "TIPUS": "Àrea de Serveis a les Persones",
+   "WKT": "POINT (2.44357677380937 41.539617014118)",
+   "LAT": "41,539617014118",
+   "LNG": "2,44357677380937"
+ },
+ {
+   "NOM": "Centre Social Ronda de Bellavista",
+   "ADRECA": "Ronda de Bellavista, 45. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.42068370625855 41.5420914837331)",
+   "LAT": "41,5420914837331",
+   "LNG": "2,42068370625855"
+ },
+ {
+   "NOM": "Centre Social Carrer de Josep Monserrat Cuadrada",
+   "ADRECA": "Carrer de Josep Monserrat Cuadrada, 37. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.43027758931741 41.5397653750118)",
+   "LAT": "41,5397653750118",
+   "LNG": "2,43027758931741"
+ },
+ {
+   "NOM": "Estadi Municipal d'Atletisme",
+   "ADRECA": "Carretera de Cirera, 250. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Altres -instal·lacions esportives-",
+   "WKT": "POINT (2.42876644270197 41.5569627845167)",
+   "LAT": "41,5569627845167",
+   "LNG": "2,42876644270197"
+ },
+ {
+   "NOM": "Piscina municipal",
+   "ADRECA": "Avinguda del Velòdrom, 25. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Altres -instal·lacions esportives-",
+   "WKT": "POINT (2.44061159030405 41.5465324595831)",
+   "LAT": "41,5465324595831",
+   "LNG": "2,44061159030405"
+ },
+ {
+   "NOM": "Centre Social Ronda de Francesc Macià",
+   "ADRECA": "Ronda de Francesc Macià, 103. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.4345190321936 41.5358081090341)",
+   "LAT": "41,5358081090341",
+   "LNG": "2,4345190321936"
+ },
+ {
+   "NOM": "Oficina Jove del Maresme - Sidral",
+   "ADRECA": "Plaça de Miquel Biada, 5. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis per a joves",
+   "TIPUS": "Oficines d'Atenció i informació per a joves",
+   "WKT": "POINT (2.44487432289563 41.5334985803693)",
+   "LAT": "41,5334985803693",
+   "LNG": "2,44487432289563"
+ },
+ {
+   "NOM": "Servei d'Ocupació Jove",
+   "ADRECA": "Plaça de Miquel Biada, 5. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis per a joves",
+   "TIPUS": "Servei d'Ocupació Jove",
+   "WKT": "POINT (2.44487432289563 41.5334985803693)",
+   "LAT": "41,5334985803693",
+   "LNG": "2,44487432289563"
+ },
+ {
+   "NOM": "Centre Obert Rocafonda",
+   "ADRECA": "Carrer de Pablo Ruiz Picasso, 28. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Oficines de Serveis socials",
+   "WKT": "POINT (2.44956386014662 41.5488956938084)",
+   "LAT": "41,5488956938084",
+   "LNG": "2,44956386014662"
+ },
+ {
+   "NOM": "Pista Poliesportiva Municipal La Llàntia",
+   "ADRECA": "Carrer de la Verge de Guadalupe, 20. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes i Poliesportius",
+   "WKT": "POINT (2.42781543831247 41.5470120539618)",
+   "LAT": "41,5470120539618",
+   "LNG": "2,42781543831247"
+ },
+ {
+   "NOM": "La Riera",
+   "ADRECA": "La Riera, 69. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "",
+   "TIPUS": "",
+   "WKT": "POINT (2.44425346815504 41.5404566576161)",
+   "LAT": "41,5404566576161",
+   "LNG": "2,44425346815504"
+ },
+ {
+   "NOM": "Centre Municipal d'Esports El Sorrall",
+   "ADRECA": "Ronda de Josep Tarradellas, 103. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Altres -instal·lacions esportives-",
+   "WKT": "POINT (2.42102811518156 41.5403800455562)",
+   "LAT": "41,5403800455562",
+   "LNG": "2,42102811518156"
+ },
+ {
+   "NOM": "Circuit Municipal de Cros",
+   "ADRECA": "Camí dels Contrabandistes, 30. Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Altres -instal·lacions esportives-",
+   "WKT": "POINT (2.43790394665188 41.5597033351152)",
+   "LAT": "41,5597033351152",
+   "LNG": "2,43790394665188"
+ },
+ {
+   "NOM": "Circuit municipal de BMX",
+   "ADRECA": "Veïnat de Mata, 148. Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Altres -instal·lacions esportives-",
+   "WKT": "POINT (2.46061336946017 41.5439766022098)",
+   "LAT": "41,5439766022098",
+   "LNG": "2,46061336946017"
+ },
+ {
+   "NOM": "Camp Municipal d'Esports del Centenari",
+   "ADRECA": "Passeig de Carles Padrós, 32. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Camps esportius municipals",
+   "WKT": "POINT (2.44244414198221 41.5459835660169)",
+   "LAT": "41,5459835660169",
+   "LNG": "2,44244414198221"
+ },
+ {
+   "NOM": "Centre Social Carrer de Jaume Ibran",
+   "ADRECA": "Carrer de Jaume Ibran, 1. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.44660784837086 41.5371446980878)",
+   "LAT": "41,5371446980878",
+   "LNG": "2,44660784837086"
+ },
+ {
+   "NOM": "Centre Social Carrer de València",
+   "ADRECA": "Carrer de València, 92. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.42334103788389 41.5401176424728)",
+   "LAT": "41,5401176424728",
+   "LNG": "2,42334103788389"
+ },
+ {
+   "NOM": "Ateneu de la Fundació Iluro",
+   "ADRECA": "La Riera, 92. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Associació cultural",
+   "WKT": "POINT (2.44410027520924 41.5413339717504)",
+   "LAT": "41,5413339717504",
+   "LNG": "2,44410027520924"
+ },
+ {
+   "NOM": "Can Gassol. Centre de Creació d'Arts Escèniques",
+   "ADRECA": "Plaça de la Pepa Maca, 15. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Arts escèniques",
+   "WKT": "POINT (2.45138526784139 41.5445459132735)",
+   "LAT": "41,5445459132735",
+   "LNG": "2,45138526784139"
+ },
+ {
+   "NOM": "Teatre Monumental",
+   "ADRECA": "La Riera, 169. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Arts escèniques",
+   "WKT": "POINT (2.44251803587888 41.5438125302884)",
+   "LAT": "41,5438125302884",
+   "LNG": "2,44251803587888"
+ },
+ {
+   "NOM": "Aula de Teatre. Espais del Monumental",
+   "ADRECA": "Carrer de Juan Meléndez Valdés, 2. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Arts escèniques",
+   "WKT": "POINT (2.44222341186896 41.5436387704055)",
+   "LAT": "41,5436387704055",
+   "LNG": "2,44222341186896"
+ },
+ {
+   "NOM": "Pista Poliesportiva Municipal de Rocafonda",
+   "ADRECA": "Ronda de Rafael Estrany, 24. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes i Poliesportius",
+   "WKT": "POINT (2.45034268946787 41.5511311360533)",
+   "LAT": "41,5511311360533",
+   "LNG": "2,45034268946787"
+ },
+ {
+   "NOM": "Casal Municipal de la Gent Gran del Parc",
+   "ADRECA": "Avinguda del Corregiment de Mataró, 28. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.44020482901614 41.5453677681449)",
+   "LAT": "41,5453677681449",
+   "LNG": "2,44020482901614"
+ },
+ {
+   "NOM": "Casal de Gent Gran Mataró",
+   "ADRECA": "Avinguda de la Gatassa, 43. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.42891617818552 41.5372202443217)",
+   "LAT": "41,5372202443217",
+   "LNG": "2,42891617818552"
+ },
+ {
+   "NOM": "Centre Cívic Cabot i Barba",
+   "ADRECA": "Plaça de Miquel Biada, 5. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Cívics",
+   "WKT": "POINT (2.44487432289563 41.5334985803693)",
+   "LAT": "41,5334985803693",
+   "LNG": "2,44487432289563"
+ },
+ {
+   "NOM": "Espai Jove Cerdanyola",
+   "ADRECA": "Passeig de Ramon Berenguer III, 82. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis per a joves",
+   "TIPUS": "Espai jove",
+   "WKT": "POINT (2.42563111127236 41.5373830605373)",
+   "LAT": "41,5373830605373",
+   "LNG": "2,42563111127236"
+ },
+ {
+   "NOM": "Espai Jove La Llàntia",
+   "ADRECA": "Carrer de Teià, 7. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis per a joves",
+   "TIPUS": "Espai jove",
+   "WKT": "POINT (2.4271573992281 41.5479135265835)",
+   "LAT": "41,5479135265835",
+   "LNG": "2,4271573992281"
+ },
+ {
+   "NOM": "Pistes de Petanca Cirera",
+   "ADRECA": "Ronda de Frederic Mistral, 2. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes de petanca",
+   "WKT": "POINT (2.437979775215 41.549170436222)",
+   "LAT": "41,549170436222",
+   "LNG": "2,437979775215"
+ },
+ {
+   "NOM": "Centre de Dia Can Clement",
+   "ADRECA": "Carrer de Joaquim Torres-García, 29. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres de Dia per a la gent gran",
+   "WKT": "POINT (2.44637686562804 41.5532992685018)",
+   "LAT": "41,5532992685018",
+   "LNG": "2,44637686562804"
+ },
+ {
+   "NOM": "Centre de Dia Gatassa",
+   "ADRECA": "Avinguda de la Gatassa, 43. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres de Dia per a la gent gran",
+   "WKT": "POINT (2.42891617818552 41.5372202443217)",
+   "LAT": "41,5372202443217",
+   "LNG": "2,42891617818552"
+ },
+ {
+   "NOM": "Residència Taller Pro persones amb disminució psíquica",
+   "ADRECA": "Ronda d'Alfons XII, 87. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres per a persones amb discapacitat",
+   "WKT": "POINT (2.43779413158661 41.5361978117358)",
+   "LAT": "41,5361978117358",
+   "LNG": "2,43779413158661"
+ },
+ {
+   "NOM": "Llar Residència - Les Sureres",
+   "ADRECA": "Carrer del Riu Segre, 25. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres per a persones amb discapacitat",
+   "WKT": "POINT (2.43550309073653 41.5626203258171)",
+   "LAT": "41,5626203258171",
+   "LNG": "2,43550309073653"
+ },
+ {
+   "NOM": "Centre Ocupacional Les Sureres",
+   "ADRECA": "Carrer del Riu Segre, 25. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres per a persones amb discapacitat",
+   "WKT": "POINT (2.43550309073653 41.5626203258171)",
+   "LAT": "41,5626203258171",
+   "LNG": "2,43550309073653"
+ },
+ {
+   "NOM": "Centre de Dia Sant Josep",
+   "ADRECA": "Muralla de Sant Llorenç, 9. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres de Dia per a la gent gran",
+   "WKT": "POINT (2.44355670414963 41.5390186909245)",
+   "LAT": "41,5390186909245",
+   "LNG": "2,44355670414963"
+ },
+ {
+   "NOM": "Mercat de Cerdanyola ",
+   "ADRECA": "Passeig de Ramon Berenguer III, 130. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Mercats i Centres comercials",
+   "TIPUS": "Mercats setmanals",
+   "WKT": "POINT (2.42742283280126 41.5390886336681)",
+   "LAT": "41,5390886336681",
+   "LNG": "2,42742283280126"
+ },
+ {
+   "NOM": "Mercat de Cirera - Molins",
+   "ADRECA": "Riera de Cirera, 30. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Mercats i Centres comercials",
+   "TIPUS": "Mercats setmanals",
+   "WKT": "POINT (2.43962342884788 41.5498124144448)",
+   "LAT": "41,5498124144448",
+   "LNG": "2,43962342884788"
+ },
+ {
+   "NOM": "Mercat de l'Escorxador",
+   "ADRECA": "Carrer d'Enric Prat de la Riba, 103. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Mercats i Centres comercials",
+   "TIPUS": "Mercats setmanals",
+   "WKT": "POINT (2.45302415213127 41.5451459282114)",
+   "LAT": "41,5451459282114",
+   "LNG": "2,45302415213127"
+ },
+ {
+   "NOM": "Mercat de la Plaça de Cuba (entorns de la plaça)",
+   "ADRECA": "Plaça de Cuba, 53. Mataró (BARCELONA)",
+   "CATEGORIA": "Mercats i Centres comercials",
+   "TIPUS": "Mercats setmanals",
+   "WKT": "POINT (2.44130058383169 41.5375124152225)",
+   "LAT": "41,5375124152225",
+   "LNG": "2,44130058383169"
+ },
+ {
+   "NOM": "Centre Cívic Espai Gatassa",
+   "ADRECA": "Carrer de Josep Monserrat Cuadrada, 1. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Cívics",
+   "WKT": "POINT (2.42869421264868 41.5376467970274)",
+   "LAT": "41,5376467970274",
+   "LNG": "2,42869421264868"
+ },
+ {
+   "NOM": "Centre Social La Casa de la Palmera",
+   "ADRECA": "Carrer de Federico Carlo Gravina, 6. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.44545213478718 41.5352886563716)",
+   "LAT": "41,5352886563716",
+   "LNG": "2,44545213478718"
+ },
+ {
+   "NOM": "M|A|C  Mataró Art Contemporani",
+   "ADRECA": "Carrer de Sant Josep, 9. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Sales d'exposicions i galeries d'art",
+   "WKT": "POINT (2.44357677380937 41.539617014118)",
+   "LAT": "41,539617014118",
+   "LNG": "2,44357677380937"
+ },
+ {
+   "NOM": "Centre Cívic Molins",
+   "ADRECA": "Carrer de Nicolau Guañabens, 23. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Cívics",
+   "WKT": "POINT (2.44232719235017 41.5493866522752)",
+   "LAT": "41,5493866522752",
+   "LNG": "2,44232719235017"
+ },
+ {
+   "NOM": "Centre Cívic Cirera",
+   "ADRECA": "Carrer de Cadis, 1. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Cívics",
+   "WKT": "POINT (2.43416154241158 41.5469990835442)",
+   "LAT": "41,5469990835442",
+   "LNG": "2,43416154241158"
+ },
+ {
+   "NOM": "Centre Cívic Pla d'en Boet",
+   "ADRECA": "Carrer de Juan Sebastián Elcano, 6. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Cívics",
+   "WKT": "POINT (2.43552178933492 41.5358533810768)",
+   "LAT": "41,5358533810768",
+   "LNG": "2,43552178933492"
+ },
+ {
+   "NOM": "Palau Municipal d'Esports Josep Mora",
+   "ADRECA": "Passeig de Carles Padrós, 14. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes i Poliesportius",
+   "WKT": "POINT (2.44248376394851 41.5456690804773)",
+   "LAT": "41,5456690804773",
+   "LNG": "2,44248376394851"
+ },
+ {
+   "NOM": "Casal Municipal de la Gent Gran Pla d'en Boet",
+   "ADRECA": "Carrer de Juan Sebastián Elcano, 6. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.43552178933492 41.5358533810768)",
+   "LAT": "41,5358533810768",
+   "LNG": "2,43552178933492"
+ },
+ {
+   "NOM": "Casal de Gent Gran Jaume Terradas",
+   "ADRECA": "Carrer d'Argentona, 59. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.44119956361732 41.540735944455)",
+   "LAT": "41,540735944455",
+   "LNG": "2,44119956361732"
+ },
+ {
+   "NOM": "Centre Cívic Cerdanyola",
+   "ADRECA": "Passeig de Ramon Berenguer III, 82. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Cívics",
+   "WKT": "POINT (2.42563111127236 41.5373830605373)",
+   "LAT": "41,5373830605373",
+   "LNG": "2,42563111127236"
+ },
+ {
+   "NOM": "Refugi d'Animals domèstics Cal Pilé",
+   "ADRECA": "Veïnat de Mata, 147. Mataró (BARCELONA)",
+   "CATEGORIA": "Altres serveis",
+   "TIPUS": "Refugis d'animals",
+   "WKT": "POINT (2.46105082157233 41.5441259922446)",
+   "LAT": "41,5441259922446",
+   "LNG": "2,46105082157233"
+ },
+ {
+   "NOM": "Espai Jove Rocafonda-El Palau",
+   "ADRECA": "Carrer de Pablo Ruiz Picasso, 28. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis per a joves",
+   "TIPUS": "Espai jove",
+   "WKT": "POINT (2.44956386014662 41.5488956938084)",
+   "LAT": "41,5488956938084",
+   "LNG": "2,44956386014662"
+ },
+ {
+   "NOM": "Pista Poliesportiva Municipal El Palau",
+   "ADRECA": "Ronda d'Alfons X el Savi, 163. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes i Poliesportius",
+   "WKT": "POINT (2.45158998891315 41.5457244460973)",
+   "LAT": "41,5457244460973",
+   "LNG": "2,45158998891315"
+ },
+ {
+   "NOM": "Mercat de la Plaça Gran (entorns del mercat)",
+   "ADRECA": "Plaça Gran, 12. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Mercats i Centres comercials",
+   "TIPUS": "Mercats setmanals",
+   "WKT": "POINT (2.44695634458931 41.5402324126919)",
+   "LAT": "41,5402324126919",
+   "LNG": "2,44695634458931"
+ },
+ {
+   "NOM": "Espai Jove Pla d'en Boet",
+   "ADRECA": "Ronda de Francesc Macià, 103. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis per a joves",
+   "TIPUS": "Espai jove",
+   "WKT": "POINT (2.4345190321936 41.5358081090341)",
+   "LAT": "41,5358081090341",
+   "LNG": "2,4345190321936"
+ },
+ {
+   "NOM": "Centre Social Carrer de Nàpols",
+   "ADRECA": "Carrer de Nàpols, 18B. Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.42520919663898 41.5397204704295)",
+   "LAT": "41,5397204704295",
+   "LNG": "2,42520919663898"
+ },
+ {
+   "NOM": "La Natura - Centre d'herbodietètica",
+   "ADRECA": "Plaça de Can Xammar, 2. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis sanitaris",
+   "TIPUS": "Farmàcies",
+   "WKT": "POINT (2.44773088426618 41.5394335015204)",
+   "LAT": "41,5394335015204",
+   "LNG": "2,44773088426618"
+ },
+ {
+   "NOM": "Centre Cívic Rocafonda - El Palau",
+   "ADRECA": "Carrer de Josep Punsola, 47. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Cívics",
+   "WKT": "POINT (2.45093178809748 41.5489521736571)",
+   "LAT": "41,5489521736571",
+   "LNG": "2,45093178809748"
+ },
+ {
+   "NOM": "Cinema Foment",
+   "ADRECA": "Carrer Nou, 11. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Cinemes",
+   "WKT": "POINT (2.44477269108586 41.5409476029239)",
+   "LAT": "41,5409476029239",
+   "LNG": "2,44477269108586"
+ },
+ {
+   "NOM": "Casa del Negrito",
+   "ADRECA": "",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.44209364756662 41.5457911084098)",
+   "LAT": "41,5457911084098",
+   "LNG": "2,44209364756662"
+ },
+ {
+   "NOM": "Centre de Dia Cerdanyola",
+   "ADRECA": "Avinguda de Josep Puig i Cadafalch, 210. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres de Dia per a la gent gran",
+   "WKT": "POINT (2.42508309593626 41.5404569097324)",
+   "LAT": "41,5404569097324",
+
+ },
+ {
+   "NOM": "Casa de la Palmera",
+   "ADRECA": "Carrer de Federico Carlo Gravina, 4. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Associació cultural",
+   "WKT": "POINT (2.44553819604507 41.5353461210554)",
+   "LAT": "41,5353461210554",
+   "LNG": "2,44553819604507"
+ },
+ {
+   "NOM": "Centre de Dia Llar Sant Marc",
+   "ADRECA": "Camí Ral, 357. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres de Dia per a la gent gran",
+   "WKT": "POINT (2.44540032799841 41.5375133468161)",
+   "LAT": "41,5375133468161",
+   "LNG": "2,44540032799841"
+ },
+ {
+   "NOM": "Centre de Dia Mediterrània",
+   "ADRECA": "Carrer del Riu Francolí, 9. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres de Dia per a la gent gran",
+   "WKT": "POINT (2.43430385068059 41.563558998593)",
+   "LAT": "41,563558998593",
+   "LNG": "2,43430385068059"
+ },
+ {
+   "NOM": "Biblioteca Pública Pompeu Fabra",
+   "ADRECA": "Passatge de Can Bonminyó, 6. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Biblioteques",
+   "WKT": "POINT (2.43360036342798 41.538209085763)",
+   "LAT": "41,538209085763",
+   "LNG": "2,43360036342798"
+ },
+ {
+   "NOM": "Biblioteca Popular de la Fundació Iluro",
+   "ADRECA": "Carrer d'En Pujol, 19. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Biblioteques",
+   "WKT": "POINT (2.44573386053012 41.5393162940535)",
+   "LAT": "41,5393162940535",
+   "LNG": "2,44573386053012"
+ },
+ {
+   "NOM": "Poliesportiu Municipal Eusebi Millán",
+   "ADRECA": "Carrer de Sant Cugat, 146. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes i Poliesportius",
+   "WKT": "POINT (2.43469517876113 41.5329303907244)",
+   "LAT": "41,5329303907244",
+   "LNG": "2,43469517876113"
+ },
+ {
+   "NOM": "Residència Municipal Sant Josep",
+   "ADRECA": "Muralla de Sant Llorenç, 9. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres residencials per a gent gran",
+   "WKT": "POINT (2.44355670414963 41.5390186909245)",
+   "LAT": "41,5390186909245",
+   "LNG": "2,44355670414963"
+ },
+ {
+   "NOM": "Camp Municipal de Futbol Pla d'en Boet",
+   "ADRECA": "Avinguda de Lluís Companys, 65. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Camps esportius municipals",
+   "WKT": "POINT (2.43286990636158 41.5330043134044)",
+   "LAT": "41,5330043134044",
+   "LNG": "2,43286990636158"
+ },
+ {
+   "NOM": "Centre Obert Municipal Pla d'en Boet",
+   "ADRECA": "Passeig de Pau Claris, 31. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Oficines de Serveis socials",
+   "WKT": "POINT (2.43214336662548 41.5355821687355)",
+   "LAT": "41,5355821687355",
+   "LNG": "2,43214336662548"
+ },
+ {
+   "NOM": "Sala Cabanyes",
+   "ADRECA": "La Riera, 110. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Arts escèniques",
+   "WKT": "POINT (2.44369152219391 41.5421743169501)",
+   "LAT": "41,5421743169501",
+   "LNG": "2,44369152219391"
+ },
+ {
+   "NOM": "CPAN. Centre de Patrimoni Arqueològic i Natural",
+   "ADRECA": "Carrer de Pablo Iglesias, 83. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Arxius i Centres de documentació",
+   "WKT": "POINT (2.43285314165926 41.5304288735613)",
+   "LAT": "41,5304288735613",
+   "LNG": "2,43285314165926"
+ },
+ {
+   "NOM": "Centre Social Torrent d'en Pregària",
+   "ADRECA": "Torrent d'En Pregària, 6. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.44058647427564 41.5530479854606)",
+   "LAT": "41,5530479854606",
+   "LNG": "2,44058647427564"
+ },
+ {
+   "NOM": "Camp Municipal de Hoquei",
+   "ADRECA": "Carrer de Galícia, 180. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Altres -instal·lacions esportives-",
+   "WKT": "POINT (2.42619565459346 41.5557242120185)",
+   "LAT": "41,5557242120185",
+   "LNG": "2,42619565459346"
+ },
+ {
+   "NOM": "Mercat de la Plaça de Cuba",
+   "ADRECA": "Plaça de Cuba, 47. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Mercats i Centres comercials",
+   "TIPUS": "Mercats fixos municipals",
+   "WKT": "POINT (2.44106311708938 41.5373290696751)",
+   "LAT": "41,5373290696751",
+   "LNG": "2,44106311708938"
+ },
+ {
+   "NOM": "Mercat de la Plaça Gran",
+   "ADRECA": "Plaça Gran, 11. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Mercats i Centres comercials",
+   "TIPUS": "Mercats fixos municipals",
+   "WKT": "POINT (2.44682166969606 41.5401991162031)",
+   "LAT": "41,5401991162031",
+   "LNG": "2,44682166969606"
+ },
+ {
+   "NOM": "Pistes Municipals de Petanca de La Llàntia",
+   "ADRECA": "Carrer de Blanes, 70. Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes de petanca",
+   "WKT": "POINT (2.42691076338725 41.5497579753109)",
+   "LAT": "41,5497579753109",
+   "LNG": "2,42691076338725"
+ },
+ {
+   "NOM": "Pistes Municipals de Petanca Ramon Berenguer",
+   "ADRECA": "Carrer de la Marató, 117. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes de petanca",
+   "WKT": "POINT (2.42401238916761 41.5349954151927)",
+   "LAT": "41,5349954151927",
+   "LNG": "2,42401238916761"
+ },
+ {
+   "NOM": "Poliesportiu Municipal del Carrer d'Euskadi",
+   "ADRECA": "Plaça de Flandes, 1. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes i Poliesportius",
+   "WKT": "POINT (2.42902950684445 41.5449975525542)",
+   "LAT": "41,5449975525542",
+   "LNG": "2,42902950684445"
+ },
+ {
+   "NOM": "Camp Municipal de Futbol Vista Alegre-Molins",
+   "ADRECA": "Carrer d'Almeria, 40. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Camps esportius municipals",
+   "WKT": "POINT (2.44470132381894 41.5537083173931)",
+   "LAT": "41,5537083173931",
+   "LNG": "2,44470132381894"
+ },
+ {
+   "NOM": "Ateneu de la Fundació Iluro",
+   "ADRECA": "La Riera, 92. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Sales d'exposicions i galeries d'art",
+   "WKT": "POINT (2.44410027520924 41.5413339717504)",
+   "LAT": "41,5413339717504",
+   "LNG": "2,44410027520924"
+ },
+ {
+   "NOM": "Can Serra. Museu de Mataró",
+   "ADRECA": "Carrer El Carreró, 17. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Museus",
+   "WKT": "POINT (2.44536357696673 41.5400896632184)",
+   "LAT": "41,5400896632184",
+   "LNG": "2,44536357696673"
+ },
+ {
+   "NOM": "Mataró Audiovisual. Mataró Ràdio",
+   "ADRECA": "Carrer de Tordera, 37. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Mitjans audiovisuals",
+   "WKT": "POINT (2.43456883449357 41.5271565815978)",
+   "LAT": "41,5271565815978",
+   "LNG": "2,43456883449357"
+ },
+ {
+   "NOM": "Centre Social Carrer de Càceres",
+   "ADRECA": "Carrer de Càceres, 16. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.43290705943665 41.5499486945381)",
+   "LAT": "41,5499486945381",
+   "LNG": "2,43290705943665"
+ },
+ {
+   "NOM": "Casal Municipal de la Gent Gran de Cirera",
+   "ADRECA": "Riera de Cirera, 43. Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.43842575507495 41.5502937035717)",
+   "LAT": "41,5502937035717",
+   "LNG": "2,43842575507495"
+ },
+ {
+   "NOM": "Casal Municipal de la Gent Gran de l'Havana",
+   "ADRECA": "Camí Ral, 163. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.45096393198029 41.5397831547868)",
+   "LAT": "41,5397831547868",
+   "LNG": "2,45096393198029"
+ },
+ {
+   "NOM": "Centre Social Passeig del Callao ",
+   "ADRECA": "Passeig del Callao, 1. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.45400702479392 41.5388318275688)",
+   "LAT": "41,5388318275688",
+   "LNG": "2,45400702479392"
+ },
+ {
+   "NOM": "Centre Social Carrer de las Siete Partidas",
+   "ADRECA": "Carrer de las Siete Partidas, 2. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.45000325127101 41.5461890576458)",
+   "LAT": "41,5461890576458",
+   "LNG": "2,45000325127101"
+ },
+ {
+   "NOM": "Centre Social Carrer d'Enric Prat de la Riba",
+   "ADRECA": "Carrer d'Enric Prat de la Riba, 110. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.45304406969035 41.5449951118624)",
+   "LAT": "41,5449951118624",
+   "LNG": "2,45304406969035"
+ },
+ {
+   "NOM": "Casal Municipal de la Gent Gran de Rocafonda - El Palau",
+   "ADRECA": "Carrer de Colòmbia, 59. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.45085889896757 41.5480689958522)",
+   "LAT": "41,5480689958522",
+   "LNG": "2,45085889896757"
+ },
+ {
+   "NOM": "Camp Municipal de Futbol de Rocafonda",
+   "ADRECA": "Ronda de Rafael Estrany, 24. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Camps esportius municipals",
+   "WKT": "POINT (2.45034268946787 41.5511311360533)",
+   "LAT": "41,5511311360533",
+   "LNG": "2,45034268946787"
+ },
+ {
+   "NOM": "Mercat del Palau",
+   "ADRECA": "Carretera de Mata, 18. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Mercats i Centres comercials",
+   "TIPUS": "Mercats fixos privats",
+   "WKT": "POINT (2.45047224496162 41.5463897647377)",
+   "LAT": "41,5463897647377",
+   "LNG": "2,45047224496162"
+ },
+ {
+   "NOM": "M1TV - Televisió de Mataró",
+   "ADRECA": "Carrer de Tordera, 37. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Mitjans audiovisuals",
+   "WKT": "POINT (2.43456883449354 41.5271565816022)",
+   "LAT": "41,5271565816022",
+   "LNG": "2,43456883449354"
+ },
+ {
+   "NOM": "Camp municipal de futbol A7 de Cirera Francisco Melero Navarro",
+   "ADRECA": "Plaça del Voluntariat, 1. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Camps esportius municipals",
+   "WKT": "POINT (2.43770041342946 41.5472978594663)",
+   "LAT": "41,5472978594663",
+   "LNG": "2,43770041342946"
+ },
+ {
+   "NOM": "Biblioteca Pública Antoni Comas",
+   "ADRECA": "Carrer d'Enric Prat de la Riba, 110. 08301 Mataró (BARCELONA)",
+   "CATEGORIA": "Cultura i Oci",
+   "TIPUS": "Biblioteques",
+   "WKT": "POINT (2.45304406969035 41.5449951118624)",
+   "LAT": "41,5449951118624",
+   "LNG": "2,45304406969035"
+ },
+ {
+   "NOM": "Camp Municipal de Futbol Camí del Mig",
+   "ADRECA": "Carrer de la Marató, 91. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Camps esportius municipals",
+   "WKT": "POINT (2.42458236421121 41.535473703664)",
+   "LAT": "41,535473703664",
+   "LNG": "2,42458236421121"
+ },
+ {
+   "NOM": "Centre Residencial d'Acció Educativa Mataró",
+   "ADRECA": "Carrer de Javier Castaños, 122. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "Serveis socials",
+   "TIPUS": "Centres residencials per a gent gran",
+   "WKT": "POINT (2.43620264862863 41.5327526593401)",
+   "LAT": "41,5327526593401",
+   "LNG": "2,43620264862863"
+ },
+ {
+   "NOM": "Camp Municipal de Futbol Enric Pujol",
+   "ADRECA": "Carrer de la Marató, 91. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Camps esportius municipals",
+   "WKT": "POINT (2.42458236421121 41.535473703664)",
+   "LAT": "41,535473703664",
+   "LNG": "2,42458236421121"
+ },
+ {
+   "NOM": "Pista Poliesportiva del Velòdrom Municipal",
+   "ADRECA": "Avinguda del Velòdrom, 27. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes i Poliesportius",
+   "WKT": "POINT (2.44022259027142 41.5466802756711)",
+   "LAT": "41,5466802756711",
+   "LNG": "2,44022259027142"
+ },
+ {
+   "NOM": "Mercat de Cerdanyola",
+   "ADRECA": "Carrer d'Atenes, 11. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Mercats i Centres comercials",
+   "TIPUS": "Mercats fixos privats",
+   "WKT": "POINT (2.42351484419331 41.5358328642848)",
+   "LAT": "41,5358328642848",
+   "LNG": "2,42351484419331"
+ },
+ {
+   "NOM": "Camp Municipal de Futbol de la Llàntia",
+   "ADRECA": "Carrer de Blanes, 70. Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Camps esportius municipals",
+   "WKT": "POINT (2.42691076338725 41.5497579753109)",
+   "LAT": "41,5497579753109",
+   "LNG": "2,42691076338725"
+ },
+ {
+   "NOM": "Casal Municipal de la Gent Gran de Cerdanyola",
+   "ADRECA": "Avinguda de la Gatassa, 52. 08303 Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.42838842212477 41.5375804396233)",
+   "LAT": "41,5375804396233",
+   "LNG": "2,42838842212477"
+ },
+ {
+   "NOM": "Casal Municipal de la Gent Gran Oriol Batista",
+   "ADRECA": "Carrer del Pla de Bages, 49. Mataró (BARCELONA)",
+   "CATEGORIA": "Casals",
+   "TIPUS": "Casals per a la gent gran",
+   "WKT": "POINT (2.42398942328958 41.542070988593)",
+   "LAT": "41,542070988593",
+   "LNG": "2,42398942328958"
+ },
+ {
+   "NOM": "Plaça de Cuba",
+   "ADRECA": "Plaça de Cuba, 41. 08302 Mataró (BARCELONA)",
+   "CATEGORIA": "",
+   "TIPUS": "",
+   "WKT": "POINT (2.44094902879145 41.5372405902775)",
+   "LAT": "41,5372405902775",
+   "LNG": "2,44094902879145"
+ },
+ {
+   "NOM": "Centre Social Plaça de Vista Alegre",
+   "ADRECA": "Plaça de Vista Alegre, 5. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Centres Cívics i Socials",
+   "TIPUS": "Centres Socials",
+   "WKT": "POINT (2.44583202875089 41.5520344883984)",
+   "LAT": "41,5520344883984",
+   "LNG": "2,44583202875089"
+ },
+ {
+   "NOM": "Poliesportiu Municipal Jaume Parera i León",
+   "ADRECA": "Avinguda del Corregiment de Mataró, 62. 08304 Mataró (BARCELONA)",
+   "CATEGORIA": "Esports",
+   "TIPUS": "Pistes i Poliesportius",
+   "WKT": "POINT (2.43763525931364 41.5471134945806)",
+   "LAT": "41,5471134945806",
+   "LNG": "2,43763525931364"
