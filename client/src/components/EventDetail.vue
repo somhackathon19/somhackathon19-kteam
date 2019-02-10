@@ -82,8 +82,15 @@
                   <div class="column is-pulled-right">
                     <div class="field">
                       <router-link to="/events">
-                        <button class="button is-fullwidth is-primary" id="delete">Sortir</button>
+                        <button class="button is-fullwidth is-primary" id="delete">Enrere</button>
                       </router-link>
+                    </div>
+                  </div>
+                </div>
+                <div class="columns">
+                  <div class="column is-mobile is-pulled-left" v-if="esPrimer">
+                    <div class="field">
+                      <button class="button is-fullwidth is-info" v-on:click="generar()">Generar sol·licitud</button>
                     </div>
                   </div>
                 </div>
@@ -107,6 +114,9 @@ export default {
     };
   },
   methods: {
+    generar: function() {
+      store.state.socket.emit('generar', { 'name': store.state.nom, 'id': this.event['_id']['$oid'] });
+    },
     unirse: function() {
       if (this.event.participants.indexOf(store.state.nom) >= 0) {
         this.error = 'Ja estàs inscrit a aquest esdeveniment';
@@ -125,6 +135,9 @@ export default {
     }
   },
   created() {
+    store.state.socket.on('sendEvents', (data) => {
+      store.state.socket.emit('getEvent', { 'id': this.$route.params.id });
+    });
     store.state.socket.on('sendEvent', (data) => {
       this.event = JSON.parse(data.data)[0];
     });
@@ -133,6 +146,9 @@ export default {
   computed: {
     estaDins: function () {
       return this.event.participants.indexOf(store.state.nom) >= 0;
+    },
+    esPrimer: function () {
+      return this.estaDins && this.event.participants[0] === store.state.nom;
     }
   }
 };

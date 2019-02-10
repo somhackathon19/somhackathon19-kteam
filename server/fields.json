@@ -1,0 +1,1090 @@
+{
+    "memo.pdf": {
+        "112": {
+            "name": "Campo de texto 66",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "53": {
+            "name": "Campo de texto 41",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "43": {
+            "name": "Campo de texto 34",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "30": {
+            "name": "Campo de texto 30",
+            "flags": "4096",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "97": {
+            "name": "Casilla de verificaci#C3#B3n 43",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "41": {
+            "name": "Campo de texto 31",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "126": {
+            "name": "Campo de texto 82",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "102": {
+            "name": "Campo de texto 63",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "15": {
+            "name": "Campo de texto 16",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "84": {
+            "name": "Casilla de verificaci#C3#B3n 34",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "77": {
+            "name": "Campo de texto 53",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "100": {
+            "name": "Campo de texto 61",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "64": {
+            "name": "Casilla de verificaci#C3#B3n 14",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "1": {
+            "name": "Campo de texto 8",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "8": {
+            "name": "Campo de texto 9",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "103": {
+            "name": "Campo de texto 58",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "47": {
+            "name": "Campo de texto 40",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "108": {
+            "name": "Campo de texto 75",
+            "flags": "4096",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "16": {
+            "name": "Campo de texto 18",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "3": {
+            "name": "Campo de texto 4",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "13": {
+            "name": "Campo de texto 14",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "40": {
+            "name": "Casilla de verificaci#C3#B3n 54",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "75": {
+            "name": "Campo de texto 51",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "31": {
+            "name": "Casilla de verificaci#C3#B3n 45",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "71": {
+            "name": "Casilla de verificaci#C3#B3n 25",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "81": {
+            "name": "Campo de texto 47",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "59": {
+            "name": "Casilla de verificaci#C3#B3n 19",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "6": {
+            "name": "Campo de texto 3",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "25": {
+            "name": "Campo de texto 28",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "62": {
+            "name": "Casilla de verificaci#C3#B3n 16",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "50": {
+            "name": "Campo de texto 45",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "78": {
+            "name": "Campo de texto 54",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "123": {
+            "name": "Campo de texto 80",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "105": {
+            "name": "Campo de texto 56",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "101": {
+            "name": "Campo de texto 62",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "125": {
+            "name": "Campo de texto 79",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "60": {
+            "name": "Casilla de verificaci#C3#B3n 18",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "117": {
+            "name": "Campo de texto 67",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "2": {
+            "name": "Campo de texto 5",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "17": {
+            "name": "Campo de texto 17",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "129": {
+            "name": "Campo de texto 86",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "18": {
+            "name": "Casilla de verificaci#C3#B3n 44",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "9": {
+            "name": "Campo de texto 10",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "22": {
+            "name": "Campo de texto 20",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "121": {
+            "name": "Campo de texto 84",
+            "flags": "4096",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "124": {
+            "name": "Campo de texto 83",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "12": {
+            "name": "Campo de texto 12",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "67": {
+            "name": "Casilla de verificaci#C3#B3n 21",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "118": {
+            "name": "Campo de texto 85",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "32": {
+            "name": "Casilla de verificaci#C3#B3n 46",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "119": {
+            "name": "Campo de texto 76",
+            "flags": "4096",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "66": {
+            "name": "Casilla de verificaci#C3#B3n 12",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "24": {
+            "name": "Campo de texto 25",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "96": {
+            "name": "Casilla de verificaci#C3#B3n 42",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "91": {
+            "name": "Casilla de verificaci#C3#B3n 37",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "106": {
+            "name": "Campo de texto 74",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "70": {
+            "name": "Casilla de verificaci#C3#B3n 24",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "116": {
+            "name": "Campo de texto 70",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "98": {
+            "name": "Campo de texto 59",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "33": {
+            "name": "Casilla de verificaci#C3#B3n 47",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "42": {
+            "name": "Campo de texto 46",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "28": {
+            "name": "Campo de texto 23",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "46": {
+            "name": "Campo de texto 37",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "82": {
+            "name": "Casilla de verificaci#C3#B3n 36",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "73": {
+            "name": "Casilla de verificaci#C3#B3n 27",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "95": {
+            "name": "Casilla de verificaci#C3#B3n 41",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "127": {
+            "name": "Campo de texto 77",
+            "flags": "4096",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "122": {
+            "name": "Campo de texto 81",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "27": {
+            "name": "Campo de texto 24",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "89": {
+            "name": "Casilla de verificaci#C3#B3n 29",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "5": {
+            "name": "Campo de texto 7",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "115": {
+            "name": "Campo de texto 73",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "87": {
+            "name": "Casilla de verificaci#C3#B3n 31",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "68": {
+            "name": "Casilla de verificaci#C3#B3n 22",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "88": {
+            "name": "Casilla de verificaci#C3#B3n 30",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "56": {
+            "name": "Campo de texto 42",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "113": {
+            "name": "Campo de texto 71",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "120": {
+            "name": "Campo de texto 78",
+            "flags": "4096",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "99": {
+            "name": "Campo de texto 60",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "44": {
+            "name": "Campo de texto 33",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "29": {
+            "name": "Campo de texto 26",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "61": {
+            "name": "Casilla de verificaci#C3#B3n 17",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "109": {
+            "name": "Campo de texto 69",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "19": {
+            "name": "Campo de texto 19",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "21": {
+            "name": "Campo de texto 21",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "38": {
+            "name": "Casilla de verificaci#C3#B3n 52",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "63": {
+            "name": "Casilla de verificaci#C3#B3n 15",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "35": {
+            "name": "Casilla de verificaci#C3#B3n 49",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "94": {
+            "name": "Casilla de verificaci#C3#B3n 40",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "90": {
+            "name": "Casilla de verificaci#C3#B3n 28",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "86": {
+            "name": "Casilla de verificaci#C3#B3n 32",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "110": {
+            "name": "Campo de texto 65",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "23": {
+            "name": "Campo de texto 29",
+            "flags": "4096",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "51": {
+            "name": "Campo de texto 35",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "107": {
+            "name": "Campo de texto 64",
+            "flags": "4096",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "11": {
+            "name": "Campo de texto 13",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "39": {
+            "name": "Casilla de verificaci#C3#B3n 53",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "58": {
+            "name": "Casilla de verificaci#C3#B3n 20",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "65": {
+            "name": "Casilla de verificaci#C3#B3n 13",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "20": {
+            "name": "Campo de texto 22",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "26": {
+            "name": "Campo de texto 27",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "83": {
+            "name": "Casilla de verificaci#C3#B3n 35",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "76": {
+            "name": "Campo de texto 52",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "48": {
+            "name": "Campo de texto 43",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "49": {
+            "name": "Campo de texto 44",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "104": {
+            "name": "Campo de texto 57",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "14": {
+            "name": "Campo de texto 15",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "72": {
+            "name": "Casilla de verificaci#C3#B3n 26",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "0": {
+            "name": "Campo de texto 1",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "92": {
+            "name": "Casilla de verificaci#C3#B3n 38",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "45": {
+            "name": "Campo de texto 32",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "80": {
+            "name": "Campo de texto 48",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "34": {
+            "name": "Casilla de verificaci#C3#B3n 48",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "55": {
+            "name": "Campo de texto 39",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "54": {
+            "name": "Campo de texto 36",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "111": {
+            "name": "Campo de texto 68",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "114": {
+            "name": "Campo de texto 72",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "7": {
+            "name": "Campo de texto 2",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "128": {
+            "name": "Casilla de verificaci#C3#B3n 1",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "36": {
+            "name": "Casilla de verificaci#C3#B3n 50",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "52": {
+            "name": "Campo de texto 38",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "79": {
+            "name": "Campo de texto 49",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "85": {
+            "name": "Casilla de verificaci#C3#B3n 33",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "69": {
+            "name": "Casilla de verificaci#C3#B3n 23",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "93": {
+            "name": "Casilla de verificaci#C3#B3n 39",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        },
+        "4": {
+            "name": "Campo de texto 6",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "74": {
+            "name": "Campo de texto 50",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "57": {
+            "name": "Campo de texto 55",
+            "flags": "4096",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "10": {
+            "name": "Campo de texto 11",
+            "flags": "0",
+            "type": "Text",
+            "justification": "Left",
+            "value": ""
+        },
+        "37": {
+            "name": "Casilla de verificaci#C3#B3n 51",
+            "flags": "0",
+            "type": "Button",
+            "justification": "Left",
+            "value": "Off",
+            "stateoption": [
+                "Off",
+                "Yes"
+            ]
+        }
+    }
+}

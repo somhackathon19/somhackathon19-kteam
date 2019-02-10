@@ -17,6 +17,9 @@ def getEvents():
 def getEvent(id):
     return dumps(mycol.find({"_id": ObjectId(id)}))
 
+def getEvent2(id):
+    return mycol.find_one({"_id": ObjectId(id)})
+
 def addUser(id, name):
     res = mycol.update({"_id": ObjectId(id)}, {'$push': {'participants': name}})
 

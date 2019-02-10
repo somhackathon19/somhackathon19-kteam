@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from mongo import *
 from flask_socketio import SocketIO, send, emit
 from flask_cors import CORS
+from pdfcompleter import *
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'holabondiasomhackathon'
@@ -38,6 +39,11 @@ def apiAddEvent(event):
     removeUser(event['id'], event['name'])
     emit('sendEvent', { 'data': getEvent(str(event['id'])) })
     emit('sendEvents', { 'data': getEvents() }, broadcast=True, namespace='/')
+
+@socketio.on('generar')
+def apiAddEvent(event):
+    print('generar: ' + str(event))
+    generar(getEvent2(str(event['id'])), event['name'])
 
 @socketio.on('connect', namespace='/')
 def test_connect():
