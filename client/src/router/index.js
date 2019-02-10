@@ -5,6 +5,7 @@ import Events from '@/components/Events'
 import EventDetail from '@/components/EventDetail'
 import NewEvent from '@/components/NewEvent'
 import Calendari from '@/components/Calendari'
+import Mapa from '@/components/Mapa'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
       path: '/calendari',
       name: 'Calendari',
       component: Calendari
+    },
+    {
+      path: '/mapa',
+      name: 'Mapa',
+      component: Mapa
     }
   ]
 })
