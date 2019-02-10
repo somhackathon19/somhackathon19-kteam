@@ -36,17 +36,8 @@
         {{ $store.state.count }}
         <div class="columns is-multiline is-mobile">
           <div class="column is-4" v-for="event in events" v-bind:key="event['_id']['$oid']">
-            <div class="field" v-if="seleccio == 'esports' && event.ambit == 'Esports'">
-              <router-link v-bind:to="'/event/'+event['_id']['$oid']">
-                <event-card v-bind:event="event"></event-card>
-              </router-link>
-            </div>
-            <div class="field" v-if="seleccio == 'cultural' && event.ambit =='Cultural'">
-              <router-link v-bind:to="'/event/'+event['_id']['$oid']">
-                <event-card v-bind:event="event"></event-card>
-              </router-link>
-            </div>
-            <div class="field" v-if="seleccio == 'tot'">
+            <div class="field" v-if="(seleccio == 'esports' && event.ambit == 'Esports') ||
+             (seleccio == 'cultural' && event.ambit =='Cultural') || seleccio == 'tot'">
               <router-link v-bind:to="'/event/'+event['_id']['$oid']">
                 <event-card v-bind:event="event"></event-card>
               </router-link>
