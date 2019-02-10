@@ -9,6 +9,8 @@ Vue.use(Vuex)
 
 const state = {
   nom: '',
+  dni: '',
+  email: '',
   socket : io('192.168.45.127:5000'),
   events: [
     // {
@@ -35,12 +37,18 @@ const state = {
 }
 
 const mutations = {
-    setNom (state, data) {
-      state.nom = data;
-    },
-    setEvents (state, data) {
-      state.events = JSON.parse(data.data);
-    }
+  setNom (state, data) {
+    state.nom = data;
+  },
+  setDni (state, data) {
+    state.dni = data;
+  },
+  setEmail (state, data) {
+    state.email = data;
+  },
+  setEvents (state, data) {
+    state.events = JSON.parse(data.data);
+  }
 }
 
 const actions = {}

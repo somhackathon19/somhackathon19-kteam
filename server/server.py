@@ -47,7 +47,7 @@ def apiAddEvent(event):
 @socketio.on('generar')
 def apiAddEvent(event):
     print('generar: ' + str(event))
-    generar(getEvent2(str(event['id'])), event['name'])
+    generar(getEvent2(str(event['id'])), event['name'], event['dni'], event['email'], event['localitzacio'])
 
 @socketio.on('connect', namespace='/')
 def test_connect():

@@ -18,7 +18,7 @@
                 </a>
               </router-link>
             </h1>
-            <h2 class="subtitle has-text-white">crear esdeveniment</h2>
+            <h2 class="subtitle has-text-white">Crea cultura <b>viva</b></h2>
           </div>
           <div class="column is-4 is offset-8">
             <div class="control has-text-white">

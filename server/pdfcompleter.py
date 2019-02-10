@@ -1,7 +1,7 @@
 import os
 import json
 
-def generar(event, name):
+def generar(event, name, dni, email, localitzacio):
     
     # event = json.loads(event)
     print(event)
@@ -11,28 +11,30 @@ def generar(event, name):
     file.write("memo.pdf,,,\n")
 
     file.write("0,Entitat,")
-    event["Entitat"] = 'Mavent'
+    event["Entitat"] = 'MataroViva'
     file.write(event["Entitat"])
     
     file.write("\n11,email,")
-    event["email"] = 'email'
-    file.write(event["email"])
+    file.write(email)
     
     file.write("\n7,cif,")
-    event["cif"] = '123456789V'
+    event["cif"] = 'R9347909E'
     file.write(event["cif"])
     
+    file.write("\n9,dniuser,")
+    file.write(dni)
+    
     file.write("\n2,cp,")
-    event["CodiPost"] = '08310'
+    event["CodiPost"] = '08302'
     file.write(event["CodiPost"])
     
     file.write("\n8,NomCog,")
     file.write(name)
     
     file.write("\n4,Poblacio,")
-    file.write(event["localitzacio"])
+    file.write(localitzacio)
     
-    file.write("\n10,tlf,")
+    file.write("\n5,tlf,")
     event["Telefon"] = '623789321'
     file.write(event["Telefon"])
     
