@@ -6,13 +6,6 @@
           <div class="column is-half is-offset-one-quarter">
             <div class="card">
               <header class="card-header text-center">
-                <router-link to="/events">
-                  <a class="button is-rounded is-info">
-                    <span class="icon is-small">
-                      <i class="fas fa-chevron-left"></i>
-                    </span>
-                  </a>
-                </router-link>
                 <h1 class="title has-text-black">{{ event.titol }}</h1>
               </header>
               <div class="card-content">
@@ -76,14 +69,21 @@
                   {{ error }}
                 </div>
                 <div class="columns">
-                  <div class="column is-mobile is-pulled-left">
+                  <div class="column is-mobile is-pulled-left" v-if="!estaDins">
                     <div class="field">
                       <button class="button is-fullwidth is-success" id="create" v-on:click="unirse()">Inscriure'm</button>
                     </div>
                   </div>
-                  <div class="column is-mobile is-pulled-right">
+                  <div class="column is-mobile is-pulled-left" v-if="estaDins">
                     <div class="field">
                       <button class="button is-fullwidth is-danger" id="delete" v-on:click="sortir()">Desinscriure'm</button>
+                    </div>
+                  </div>
+                  <div class="column is-pulled-right">
+                    <div class="field">
+                      <router-link to="/events">
+                        <button class="button is-fullwidth is-primary" id="delete">Sortir</button>
+                      </router-link>
                     </div>
                   </div>
                 </div>
@@ -129,6 +129,11 @@ export default {
       this.event = JSON.parse(data.data)[0];
     });
     store.state.socket.emit('getEvent', { 'id': this.$route.params.id });
+  },
+  computed: {
+    estaDins: function () {
+      return this.event.participants.indexOf(store.state.nom) >= 0;
+    }
   }
 };
 </script>

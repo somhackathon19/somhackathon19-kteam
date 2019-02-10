@@ -111,14 +111,16 @@
                       <button class="button is-fullwidth is-success" id="create" v-on:click="crearEvent()">Crear</button>
                     </div>
                   </div>
-                  <div class="column is-pulled-left">
+                  <!-- <div class="column is-pulled-left">
                     <div class="field">
                       <button class="button is-fullwidth is-success" id="save" v-on:click="editarEvent()">Editar</button>
                     </div>
-                  </div>
+                  </div> -->
                   <div class="column is-pulled-right">
                     <div class="field">
-                      <button class="button is-fullwidth is-danger " id="delete" v-on:click="borrarEvent()">Borrar</button>
+                      <router-link to="/events">
+                        <button class="button is-fullwidth is-primary" id="delete">Sortir</button>
+                      </router-link>
                     </div>
                   </div>
                 </div>
@@ -147,12 +149,12 @@ export default {
       this.event['participants'] = [store.state.nom];
       store.state.socket.emit('addEvent', this.event);
     },
-    editarEvent: function() {
-      store.state.socket.emit('editEvent', { 'id': id, 'event': this.event });
-    },
-    borrarEvent: function() {
-      store.state.socket.emit('deleteEvent', { 'id': id });
-    }
+    // editarEvent: function() {
+    //   store.state.socket.emit('editEvent', { 'id': id, 'event': this.event });
+    // },
+    // borrarEvent: function() {
+    //   store.state.socket.emit('deleteEvent', { 'id': id });
+    // }
   }
 };
 </script>
